@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6ec7052847c32210d140a464116d43e2" extends="sys_import_set_row" label="Cars" max_length="40" name="x_1809208_car_sale_cars" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Chassi" label="Chassi" max_length="40" name="u_chassi" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nome do Carro" label="Nome do Carro" max_length="40" name="u_nome_do_carro" type="string"/>
+    </element>
+</database>
