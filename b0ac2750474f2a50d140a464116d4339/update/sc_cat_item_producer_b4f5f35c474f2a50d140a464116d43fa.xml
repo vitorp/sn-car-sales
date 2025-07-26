@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category/>
+        <category display_value="Services">109f0438c6112276003ae8ac13e7009d</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
@@ -70,7 +70,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -89,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-26 12:34:36</sys_created_on>
         <sys_id>b4f5f35c474f2a50d140a464116d43fa</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Car offer</sys_name>
         <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name>sc_cat_item_producer_b4f5f35c474f2a50d140a464116d43fa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-26 12:55:29</sys_updated_on>
+        <sys_updated_on>2025-07-26 12:56:50</sys_updated_on>
         <table_name>x_1809208_car_sale_car_sale</table_name>
         <taxonomy_topic/>
         <template display_value="Car Buy Offer">24483710478f2a50d140a464116d4394</template>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>3</version>
+        <version>4</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
