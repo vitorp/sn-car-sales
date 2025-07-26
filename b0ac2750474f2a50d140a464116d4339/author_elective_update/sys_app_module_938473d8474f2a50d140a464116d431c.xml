@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Car sale">97847b90474f2a50d140a464116d437e</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>User</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 12:25:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>938473d8474f2a50d140a464116d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_app_module_938473d8474f2a50d140a464116d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 12:25:18</sys_updated_on>
+        <timeline_page/>
+        <title>User</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car sale">b0ac2750474f2a50d140a464116d4339</application>
+        <file_path/>
+        <instance_id>03f118bcfb74ee541feef633beefdcd4</instance_id>
+        <instance_name>dev318835</instance_name>
+        <name>sys_app_module_938473d8474f2a50d140a464116d431c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Car sale">97847b90474f2a50d140a464116d437e</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>User</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-26 12:25:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>938473d8474f2a50d140a464116d431c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User</sys_name><sys_overrides/><sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package><sys_policy/><sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope><sys_update_name>sys_app_module_938473d8474f2a50d140a464116d431c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-26 12:25:18</sys_updated_on><timeline_page/><title>User</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>691451506</payload_hash>
+        <record_name>User</record_name>
+        <reverted_from/>
+        <source>30ac2750474f2a50d140a464116d433d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 12:25:18</sys_created_on>
+        <sys_id>678473d8474f2a50d140a464116d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19846b1dcf00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 12:25:18</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2b8473d8ce4f2a506b1cb679effc7f1e</update_guid>
+        <update_guid_history>2b8473d8ce4f2a506b1cb679effc7f1e:691451506</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="User">1825bf94474f2a50d140a464116d432d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 12:27:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>319fd4bed35f4060a0b6df1164828400</sys_id>
+        <sys_metadata>938473d8474f2a50d140a464116d431c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_scope_delete display_value="">01a80133342b47d4817de48f90252f41</sys_scope_delete>
+        <sys_update_name>sys_app_module_938473d8474f2a50d140a464116d431c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_938473d8474f2a50d140a464116d431c">678473d8474f2a50d140a464116d431f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 12:27:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

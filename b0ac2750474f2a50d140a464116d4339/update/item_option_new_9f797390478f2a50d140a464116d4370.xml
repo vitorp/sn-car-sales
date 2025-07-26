@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Car offer">b4f5f35c474f2a50d140a464116d43fa</cat_item>
+        <cat_item display_value="Car Purchase offer">b4f5f35c474f2a50d140a464116d43fa</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -22,7 +22,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field/>
+        <field>vin</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -39,10 +39,10 @@
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
-        <map_to_field>false</map_to_field>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>chassis_number</name>
+        <name>vin</name>
         <not_available_conversation>false</not_available_conversation>
         <order>200</order>
         <post_insert_script/>
@@ -58,8 +58,8 @@
         <record/>
         <record_producer_table>x_1809208_car_sale_car_sale</record_producer_table>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-26 12:47:36</sys_created_on>
         <sys_id>9f797390478f2a50d140a464116d4370</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Chassis Number</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>vin</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name>item_option_new_9f797390478f2a50d140a464116d4370</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-26 12:55:29</sys_updated_on>
+        <sys_updated_on>2025-07-26 13:41:08</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

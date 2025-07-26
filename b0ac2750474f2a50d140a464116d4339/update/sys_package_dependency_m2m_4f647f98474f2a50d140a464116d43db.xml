@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">1734e77b04312210559073c06a02f70c</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 12:24:43</sys_created_on>
+        <sys_id>4f647f98474f2a50d140a464116d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 12:24:43</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

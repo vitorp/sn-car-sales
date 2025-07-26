@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="counter_offer_value" label="Counter Offer Value" language="en" table="x_1809208_car_sale_car_sale">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>counter_offer_value</element>
+            <help/>
+            <hint/>
+            <label>Counter Offer Value</label>
+            <language>en</language>
+            <name>x_1809208_car_sale_car_sale</name>
+            <plural>Counter Offer Values</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-26 14:08:31</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Counter Offer Value</sys_name>
+            <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+            <sys_update_name>sys_documentation_x_1809208_car_sale_car_sale_counter_offer_value_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-26 14:08:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

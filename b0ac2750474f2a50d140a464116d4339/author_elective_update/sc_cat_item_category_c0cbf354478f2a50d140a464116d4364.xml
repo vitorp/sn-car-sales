@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Car offer">b4f5f35c474f2a50d140a464116d43fa</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 12:56:44</sys_created_on>
+        <sys_id>c0cbf354478f2a50d140a464116d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Car offer</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sc_cat_item_category_c0cbf354478f2a50d140a464116d4364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 12:56:44</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car sale">b0ac2750474f2a50d140a464116d4339</application>
+        <file_path/>
+        <instance_id>03f118bcfb74ee541feef633beefdcd4</instance_id>
+        <instance_name>dev318835</instance_name>
+        <name>sc_cat_item_category_c0cbf354478f2a50d140a464116d4364</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Car offer">b4f5f35c474f2a50d140a464116d43fa</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-26 12:56:44</sys_created_on><sys_id>c0cbf354478f2a50d140a464116d4364</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Car offer</sys_name><sys_package/><sys_policy/><sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope><sys_update_name>sc_cat_item_category_c0cbf354478f2a50d140a464116d4364</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-26 12:56:44</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1676566993</payload_hash>
+        <record_name>Services.Car offer</record_name>
+        <reverted_from/>
+        <source>0dcbf354478f2a50d140a464116d43a6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 12:56:49</sys_created_on>
+        <sys_id>81cb3754478f2a50d140a464116d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19846ceb7f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 12:56:49</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>85cb3754038f2a5053e6d2ebf7a7d605</update_guid>
+        <update_guid_history>85cb3754038f2a5053e6d2ebf7a7d605:1676566993,c1cbf354c98f2a5026f7eafd25962bfa:-2083427731</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Car offer">4586cce047cf2a50d140a464116d434c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 13:43:46</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>949354f176a543f09f4e6ed2a82b2d64</sys_id>
+        <sys_metadata>c0cbf354478f2a50d140a464116d4364</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Car offer</sys_name>
+        <sys_package/>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_scope_delete display_value="">01a80133342b47d4817de48f90252f41</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_c0cbf354478f2a50d140a464116d4364</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_c0cbf354478f2a50d140a464116d4364">81cb3754478f2a50d140a464116d4306</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 13:43:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
