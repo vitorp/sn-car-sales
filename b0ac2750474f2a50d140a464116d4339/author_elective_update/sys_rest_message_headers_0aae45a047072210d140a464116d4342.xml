@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="DELETE">
+        <name>accept</name>
+        <rest_message display_value="Detran Integration">196e8d2047072210d140a464116d437b</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 19:00:17</sys_created_on>
+        <sys_id>0aae45a047072210d140a464116d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>accept</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_rest_message_headers_0aae45a047072210d140a464116d4342</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 19:00:17</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car sale">b0ac2750474f2a50d140a464116d4339</application>
+        <file_path/>
+        <instance_id>03f118bcfb74ee541feef633beefdcd4</instance_id>
+        <instance_name>dev318835</instance_name>
+        <name>sys_rest_message_headers_0aae45a047072210d140a464116d4342</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers"><sys_rest_message_headers action="INSERT_OR_UPDATE"><name>accept</name><rest_message display_value="Detran Integration">196e8d2047072210d140a464116d437b</rest_message><sys_class_name>sys_rest_message_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-26 19:00:17</sys_created_on><sys_id>0aae45a047072210d140a464116d4342</sys_id><sys_mod_count>0</sys_mod_count><sys_name>accept</sys_name><sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package><sys_policy/><sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope><sys_update_name>sys_rest_message_headers_0aae45a047072210d140a464116d4342</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-26 19:00:17</sys_updated_on><value>application/json</value></sys_rest_message_headers></record_update>]]></payload>
+        <payload_hash>-388302817</payload_hash>
+        <record_name>accept</record_name>
+        <reverted_from/>
+        <source>d13f1c6047032210d140a464116d4338</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 19:00:17</sys_created_on>
+        <sys_id>89fe85e047072210d140a464116d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198481b7b070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 19:00:17</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>8dfe85e0a2072210335f2770c4e2f846</update_guid>
+        <update_guid_history>8dfe85e0a2072210335f2770c4e2f846:-388302817</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 19:23:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_headers">sys_rest_message_headers</sys_db_object>
+        <sys_id>94bb7cf9da7344be9e1f4911cf3400e1</sys_id>
+        <sys_metadata>0aae45a047072210d140a464116d4342</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>accept</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_parent display_value="detran_integration">196e8d2047072210d140a464116d437b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_scope_delete display_value="">01a80133342b47d4817de48f90252f41</sys_scope_delete>
+        <sys_update_name>sys_rest_message_headers_0aae45a047072210d140a464116d4342</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_headers_0aae45a047072210d140a464116d4342">89fe85e047072210d140a464116d4347</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 19:23:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

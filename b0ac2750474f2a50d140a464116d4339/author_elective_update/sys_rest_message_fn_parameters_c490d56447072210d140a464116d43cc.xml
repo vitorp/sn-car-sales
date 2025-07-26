@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="DELETE">
+        <name>car_chassi_</name>
+        <rest_message_function display_value="Default GET">7c8e052047072210d140a464116d43a6</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 19:07:34</sys_created_on>
+        <sys_id>c490d56447072210d140a464116d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>car_chassi_</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_c490d56447072210d140a464116d43cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 19:07:34</sys_updated_on>
+        <type>string</type>
+        <value>DLGY1RD5B5QMCOIZF</value>
+    </sys_rest_message_fn_parameters>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car sale">b0ac2750474f2a50d140a464116d4339</application>
+        <file_path/>
+        <instance_id>03f118bcfb74ee541feef633beefdcd4</instance_id>
+        <instance_name>dev318835</instance_name>
+        <name>sys_rest_message_fn_parameters_c490d56447072210d140a464116d43cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>car_chassi_</name><rest_message_function display_value="Default GET">7c8e052047072210d140a464116d43a6</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-26 19:07:34</sys_created_on><sys_id>c490d56447072210d140a464116d43cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>car_chassi_</sys_name><sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package><sys_policy/><sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope><sys_update_name>sys_rest_message_fn_parameters_c490d56447072210d140a464116d43cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-26 19:07:34</sys_updated_on><type>string</type><value>DLGY1RD5B5QMCOIZF</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+        <payload_hash>-176225550</payload_hash>
+        <record_name>car_chassi_</record_name>
+        <reverted_from/>
+        <source>d13f1c6047032210d140a464116d4338</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 19:07:34</sys_created_on>
+        <sys_id>339011e047072210d140a464116d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1984822278e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 19:07:34</sys_updated_on>
+        <type>Variable Substitutions</type>
+        <update_guid>379011e0de072210116a6aaac7bb1607</update_guid>
+        <update_guid_history>379011e0de072210116a6aaac7bb1607:-176225550</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 19:08:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_parameters">sys_rest_message_fn_parameters</sys_db_object>
+        <sys_id>3993f54bd3854597958abcd5be0695d1</sys_id>
+        <sys_metadata>c490d56447072210d140a464116d43cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>car_chassi_</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_parent display_value="getCarByNameAndChassi">7c8e052047072210d140a464116d43a6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_scope_delete display_value="">01a80133342b47d4817de48f90252f41</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_parameters_c490d56447072210d140a464116d43cc</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_parameters_c490d56447072210d140a464116d43cc">339011e047072210d140a464116d4308</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 19:08:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

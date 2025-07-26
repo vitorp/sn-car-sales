@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1809208_car_sale.Car Utils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>checks car name or chassis exists</description>
+        <mobile_callable>false</mobile_callable>
+        <name>Car Utils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CarUtils = Class.create();
+CarUtils.prototype = {
+  initialize: function() {
+  },
+
+  checkCarNameExists: function(carName) {
+    var gr = new GlideRecord('u_car');
+    gr.addQuery('u_car_name', carName);
+    gr.query();
+    return gr.hasNext(); // true if exists
+  },
+
+  type: 'CarUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 20:04:39</sys_created_on>
+        <sys_id>cc3dd1a447472210d140a464116d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car Utils</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_script_include_cc3dd1a447472210d140a464116d438c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 20:04:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

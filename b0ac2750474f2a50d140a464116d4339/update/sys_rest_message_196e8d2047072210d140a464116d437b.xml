@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="Detran Integration">4813af7f4736a650d140a464116d43d3</basic_auth_profile>
+        <basic_auth_user/>
+        <description>Detran integration api for car Details</description>
+        <name>detran_integration</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://chaintechsales.service-now.com/api/now/table/u_car</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 18:58:21</sys_created_on>
+        <sys_id>196e8d2047072210d140a464116d437b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>detran_integration</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_rest_message_196e8d2047072210d140a464116d437b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-26 19:12:22</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>
