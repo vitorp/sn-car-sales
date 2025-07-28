@@ -6,7 +6,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:07193b50478f2a50d140a464116d439cISNOTEMPTY^IO:9f797390478f2a50d140a464116d4370ISNOTEMPTY^EQ</catalog_conditions>
+        <catalog_conditions>IO:a3ea7bd0478f2a50d140a464116d4396=true^EQ</catalog_conditions>
         <catalog_item display_value="Car Purchase offer">b4f5f35c474f2a50d140a464116d43fa</catalog_item>
         <conditions/>
         <description/>
@@ -18,7 +18,7 @@
         <on_load>true</on_load>
         <order>100</order>
         <published_ref/>
-        <reverse_if_false>true</reverse_if_false>
+        <reverse_if_false>false</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
 
@@ -34,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bf3a55a047472210d140a464116d4325</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Shows car info after user enters name and vin</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
@@ -42,9 +42,9 @@
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name>catalog_ui_policy_bf3a55a047472210d140a464116d4325</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-26 19:53:15</sys_updated_on>
+        <sys_updated_on>2025-07-28 14:32:29</sys_updated_on>
         <table/>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <va_supported>true</va_supported>
         <variable_set/>
         <view/>

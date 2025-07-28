@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1809208_car_sale.TestInfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>TestInfo</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var TestInfo = Class.create();
+TestInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	// Server-side call
+    getCar: function(carName, carChassis) {
+        try {
+            var r = new sn_ws.RESTMessageV2('detran_integration', 'getCarByNameAndChassi');
+			r.setStringParameterNoEscape('name', carName);
+			r.setStringParameterNoEscape('chassi', carChassis);
+
+            // Execute REST call (synchronous)
+            var response = r.execute();
+
+            var httpStatus = response.getStatusCode();
+            var responseBody = response.getBody();
+
+            // Log and return response
+            gs.info("API Response Status: " + httpStatus);
+            gs.info("API Response Body: " + responseBody);
+
+            return {
+                status: httpStatus,
+                body: responseBody
+            };
+
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.error("REST call failed: " + message);
+            return {
+                status: 'error',
+                message: message
+            };
+        }
+    },
+	// Client-side AJAX call
+	getCarAJAX: function() {
+		var carName = this.getParameter("sysparm_car_name");
+		var carChassis = this.getParameter("sysparm_chassis");
+		var result = this.getCar(carName, carChassis);
+		return JSON.stringify(result);
+	},
+	managerName: function() {
+        // var userName = this.getParameter("sysparm_user_name");
+        var result = {    
+           "test": "result"
+        }; 
+        return JSON.stringify(result);
+    },
+
+    type: 'TestInfo'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 14:04:33</sys_created_on>
+        <sys_id>929d1ec94743e210d140a464116d432f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>TestInfo</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_script_include_929d1ec94743e210d140a464116d432f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 14:19:32</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car sale">b0ac2750474f2a50d140a464116d4339</application>
+        <file_path/>
+        <instance_id>03f118bcfb74ee541feef633beefdcd4</instance_id>
+        <instance_name>dev318835</instance_name>
+        <name>sys_script_include_929d1ec94743e210d140a464116d432f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1809208_car_sale.TestInfo&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;TestInfo&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var TestInfo = Class.create();
+TestInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	// Server-side call
+    getCar: function(carName, carChassis) {
+        try {
+            var r = new sn_ws.RESTMessageV2('detran_integration', 'getCarByNameAndChassi');
+			r.setStringParameterNoEscape('name', carName);
+			r.setStringParameterNoEscape('chassi', carChassis);
+
+            // Execute REST call (synchronous)
+            var response = r.execute();
+
+            var httpStatus = response.getStatusCode();
+            var responseBody = response.getBody();
+
+            // Log and return response
+            gs.info("API Response Status: " + httpStatus);
+            gs.info("API Response Body: " + responseBody);
+
+            return {
+                status: httpStatus,
+                body: responseBody
+            };
+
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.error("REST call failed: " + message);
+            return {
+                status: 'error',
+                message: message
+            };
+        }
+    },
+	// Client-side AJAX call
+	getCarAJAX: function() {
+		var carName = this.getParameter("sysparm_car_name");
+		var carChassis = this.getParameter("sysparm_chassis");
+		var result = this.getCar(carName, carChassis);
+		return JSON.stringify(result);
+	},
+	managerName: function() {
+        // var userName = this.getParameter("sysparm_user_name");
+        var result = {    
+           "test": "result"
+        }; 
+        return JSON.stringify(result);
+    },
+
+    type: 'TestInfo'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-28 14:04:33&lt;/sys_created_on&gt;&lt;sys_id&gt;929d1ec94743e210d140a464116d432f&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;TestInfo&lt;/sys_name&gt;&lt;sys_package display_value="Car sale" source="x_1809208_car_sale"&gt;b0ac2750474f2a50d140a464116d4339&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Car sale"&gt;b0ac2750474f2a50d140a464116d4339&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_929d1ec94743e210d140a464116d432f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-28 14:19:32&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>359902263</payload_hash>
+        <record_name>TestInfo</record_name>
+        <reverted_from/>
+        <source>d13f1c6047032210d140a464116d4338</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 14:19:32</sys_created_on>
+        <sys_id>c4e166814783e210d140a464116d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19851672a190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 14:19:32</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>4ce166810583e2107300398f37a1b1b2</update_guid>
+        <update_guid_history>4ce166810583e2107300398f37a1b1b2:359902263,d4a162413983e210c9ef28e2ad160a15:937606636,3b31aa01b983e2100e16abd15776da52:-1227964896,f9216641ea83e210cd96b487f4248b47:-1835285294,dce022412d83e210881dd06e050a20bf:339248330,a7a0e2015483e210a1f8a9d4c3a241a8:-1835285294,747e1e4d0243e2101b4bc08c657d74b1:339248330</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 14:28:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>007c27b9c8e0492097b95d054d888421</sys_id>
+        <sys_metadata>929d1ec94743e210d140a464116d432f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestInfo</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_scope_delete display_value="">01a80133342b47d4817de48f90252f41</sys_scope_delete>
+        <sys_update_name>sys_script_include_929d1ec94743e210d140a464116d432f</sys_update_name>
+        <sys_update_version display_value="sys_script_include_929d1ec94743e210d140a464116d432f">c4e166814783e210d140a464116d43b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 14:28:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

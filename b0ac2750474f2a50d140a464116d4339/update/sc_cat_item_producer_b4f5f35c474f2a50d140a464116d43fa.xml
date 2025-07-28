@@ -3,7 +3,7 @@
         <access_type>restricted</access_type>
         <active>true</active>
         <allow_edit>false</allow_edit>
-        <availability>on_desktop</availability>
+        <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Vehicle">1b078c2447cf2a50d140a464116d4389</category>
@@ -47,7 +47,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner/>
         <picture/>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
@@ -90,14 +90,14 @@ producer.car_info = "oi";]]></script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-26 12:34:36</sys_created_on>
         <sys_id>b4f5f35c474f2a50d140a464116d43fa</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name>Car Purchase offer</sys_name>
         <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name>sc_cat_item_producer_b4f5f35c474f2a50d140a464116d43fa</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-07-26 19:57:06</sys_updated_on>
+        <sys_updated_on>2025-07-28 14:47:36</sys_updated_on>
         <table_name>x_1809208_car_sale_car_sale</table_name>
         <taxonomy_topic/>
         <template/>
@@ -105,7 +105,7 @@ producer.car_info = "oi";]]></script>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>14</version>
+        <version>60</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -131,4 +131,15 @@ producer.car_info = "oi";]]></script>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b4f5f35c474f2a50d140a464116d43fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 13:59:14</sys_created_on>
+        <sys_id>fe3d9e894743e210d140a464116d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 13:59:14</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
