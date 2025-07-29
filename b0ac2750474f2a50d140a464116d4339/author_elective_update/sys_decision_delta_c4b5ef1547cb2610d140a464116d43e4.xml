@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_delta">
+    <sys_decision_delta action="DELETE">
+        <access>public</access>
+        <active>false</active>
+        <answer_table>sys_decision_multi_result</answer_table>
+        <answer_type>reference</answer_type>
+        <delta/>
+        <description>Decides which group should handle the car sale approval.</description>
+        <enable_publishing>false</enable_publishing>
+        <label/>
+        <name>Car sale approval group by state delta</name>
+        <parent display_value="Car sale approval group by state">9dbcd3d5478b2610d140a464116d4338</parent>
+        <reference_qualifier/>
+        <status>draft</status>
+        <sys_class_name>sys_decision_delta</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 13:54:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4b5ef1547cb2610d140a464116d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car sale approval group by state delta</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_decision_delta_c4b5ef1547cb2610d140a464116d43e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 13:54:17</sys_updated_on>
+    </sys_decision_delta>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car sale">b0ac2750474f2a50d140a464116d4339</application>
+        <file_path/>
+        <instance_id>03f118bcfb74ee541feef633beefdcd4</instance_id>
+        <instance_name>dev318835</instance_name>
+        <name>sys_decision_delta_c4b5ef1547cb2610d140a464116d43e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_delta"><sys_decision_delta action="INSERT_OR_UPDATE"><access>public</access><active>false</active><answer_table>sys_decision_multi_result</answer_table><answer_type>reference</answer_type><delta/><description>Decides which group should handle the car sale approval.</description><enable_publishing>false</enable_publishing><label/><name>Car sale approval group by state delta</name><parent display_value="Car sale approval group by state">9dbcd3d5478b2610d140a464116d4338</parent><reference_qualifier/><status>draft</status><sys_class_name>sys_decision_delta</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-29 13:54:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c4b5ef1547cb2610d140a464116d43e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Car sale approval group by state delta</sys_name><sys_overrides/><sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package><sys_policy/><sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope><sys_update_name>sys_decision_delta_c4b5ef1547cb2610d140a464116d43e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-29 13:54:17</sys_updated_on></sys_decision_delta></record_update>]]></payload>
+        <payload_hash>-1946063768</payload_hash>
+        <record_name>Car sale approval group by state delta</record_name>
+        <reverted_from/>
+        <source>d13f1c6047032210d140a464116d4338</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 13:54:17</sys_created_on>
+        <sys_id>c0b5ef1547cb2610d140a464116d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19856766a140000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 13:54:17</sys_updated_on>
+        <type>Delta Decision Table</type>
+        <update_guid>c4b5ef1570cb2610b0fb7982970d8ae6</update_guid>
+        <update_guid_history>c4b5ef1570cb2610b0fb7982970d8ae6:-1946063768</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 13:58:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_delta">sys_decision_delta</sys_db_object>
+        <sys_id>7386f24a3fd14af0b7c1a25d8a51d900</sys_id>
+        <sys_metadata>c4b5ef1547cb2610d140a464116d43e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car sale approval group by state delta</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_scope_delete display_value="">01a80133342b47d4817de48f90252f41</sys_scope_delete>
+        <sys_update_name>sys_decision_delta_c4b5ef1547cb2610d140a464116d43e4</sys_update_name>
+        <sys_update_version display_value="sys_decision_delta_c4b5ef1547cb2610d140a464116d43e4">c0b5ef1547cb2610d140a464116d43e7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 13:58:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -19,28 +19,52 @@
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-    if (isLoading || newValue == '' || newValue == false) {
-		// escapes if value is false
+    if (isLoading || newValue == '' || newValue == 'false') {
+        // escapes if value is false
         return;
     }
-	var carName = g_form.getValue('car_name');
-	var chassis = g_form.getValue('vin');
-	var ga = new GlideAjax('CarAPIClient');
+
+    var carName = g_form.getValue('car_name');
+    var chassis = g_form.getValue('vin');
+    var ga = new GlideAjax('CarAPIClient');
     ga.addParam('sysparm_name', 'getCarAJAX');
     ga.addParam('sysparm_car_name', carName);
     ga.addParam('sysparm_chassis', chassis);
 
     ga.getXMLAnswer(function(response) {
+		console.log('car_name:', carName);
+		console.log('chassis:', chassis);
         var result = JSON.parse(response);
-		var carDetails = JSON.parse(result.body).result[0];
-		console.log(carDetails);
+		console.log('result:', result);
+        var detailsString = "";
         if (result.status == 200) {
-			var detailsString = 'Nome do carro:' + carDetails.u_car_name;
-            g_form.setValue('car_info', detailsString);
+            var resultArray = JSON.parse(result.body).result;
+            detailsString = buildCarInfoMessage(resultArray);
+			g_form.setValue('UF', resultArray[0].u_uf);
         } else {
-            alert("Error: " + result.message);
+            detailsString = result.message;
         }
+        g_form.setValue('car_info', detailsString);
     });
+}
+
+function buildCarInfoMessage(resultArray) {
+    if (resultArray.length > 0) {
+        var carDetails = resultArray[0];
+        var carInfoLines = [
+            'Dados do carro:',
+            '',
+            'Nome do carro: ' + carDetails.u_car_name,
+            'Modelo: ' + carDetails.u_modelo,
+            'Ano: ' + carDetails.u_ano_modelo,
+            'Ano de fabricação: ' + carDetails.u_ano_fabricacao,
+            'Marca: ' + carDetails.u_marca,
+            'Valor atual da tabela FIPE: R$ ' + carDetails.u_valor_tabela_fipe
+        ];
+		return carInfoLines.join('\n');
+    } else {
+		return "Carro não encontrado.";
+	}
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -48,7 +72,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2458d6454743e210d140a464116d43a5</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>CarApiCatalogAJAX</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
@@ -56,7 +80,7 @@
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name>catalog_script_client_2458d6454743e210d140a464116d43a5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-28 14:48:28</sys_updated_on>
+        <sys_updated_on>2025-07-29 15:33:27</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

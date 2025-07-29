@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>755467d147cb2610d140a464116d43b5</answer>
+        <condition/>
+        <decision_table display_value="Car sale approval group by state">9dbcd3d5478b2610d140a464116d4338</decision_table>
+        <default_answer>true</default_answer>
+        <input_table>var__m_sys_decision_input_9dbcd3d5478b2610d140a464116d4338</input_table>
+        <label>Car sale approval group by state default result</label>
+        <marked_for_deletion>false</marked_for_deletion>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 13:48:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0254a7d147cb2610d140a464116d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car sale approval group by state default result</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_decision_question_0254a7d147cb2610d140a464116d430b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 13:48:25</sys_updated_on>
+    </sys_decision_question>
+</record_update>

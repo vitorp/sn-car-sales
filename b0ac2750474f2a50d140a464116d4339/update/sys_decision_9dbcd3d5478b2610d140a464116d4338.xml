@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision">
+    <sys_decision action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <answer_table>sys_decision_multi_result</answer_table>
+        <answer_type>reference</answer_type>
+        <delta/>
+        <description>Decides which group should handle the car sale approval.</description>
+        <enable_publishing>true</enable_publishing>
+        <label/>
+        <name>Car sale approval group by state</name>
+        <reference_qualifier/>
+        <status>published</status>
+        <sys_class_name>sys_decision</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 13:15:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9dbcd3d5478b2610d140a464116d4338</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Car sale approval group by state</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_decision_9dbcd3d5478b2610d140a464116d4338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 13:58:07</sys_updated_on>
+    </sys_decision>
+</record_update>

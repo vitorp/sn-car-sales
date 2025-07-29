@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="Approval Group by UF">5269239947cb2610d140a464116d43a9</decision_table>
+        <label>Approval Group: Aprovação Região Norte</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 14:14:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e13aebd947cb2610d140a464116d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval Group: Aprovação Região Norte</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_decision_multi_result_e13aebd947cb2610d140a464116d43d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 14:14:03</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=e13aebd947cb2610d140a464116d43d6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>e13aebd947cb2610d140a464116d43d6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 14:14:03</sys_created_on>
+        <sys_id>e53aebd947cb2610d140a464116d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 14:14:03</sys_updated_on>
+        <value>6de0a75d478b2610d140a464116d4366</value>
+        <variable display_value="Approval Group">253aebd947cb2610d140a464116d4389</variable>
+    </sys_variable_value>
+</record_update>

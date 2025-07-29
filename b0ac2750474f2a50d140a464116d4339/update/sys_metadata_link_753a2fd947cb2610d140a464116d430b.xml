@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>b53a2fd947cb2610d140a464116d430a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>293aebd947cb2610d140a464116d43ba</answer>
+        <condition table="var__m_sys_decision_input_5269239947cb2610d140a464116d43a9">u_ufINPR,RS,SC^EQ<item endquery="false" field="u_uf" goto="false" newquery="false" operator="IN" or="false" value="PR,RS,SC"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Approval Group by UF">5269239947cb2610d140a464116d43a9</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_5269239947cb2610d140a464116d43a9</input_table>
+        <label>Approval Group by UF_500</label>
+        <marked_for_deletion>false</marked_for_deletion>
+        <order>500</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 14:14:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b53a2fd947cb2610d140a464116d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval Group by UF_500</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_decision_question_b53a2fd947cb2610d140a464116d430a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 14:14:04</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 14:14:04</sys_created_on>
+        <sys_id>753a2fd947cb2610d140a464116d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval Group by UF_500</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_metadata_link_753a2fd947cb2610d140a464116d430b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 14:14:04</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

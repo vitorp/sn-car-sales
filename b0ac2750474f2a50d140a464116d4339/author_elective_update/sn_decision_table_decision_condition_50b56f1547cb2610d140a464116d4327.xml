@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="DELETE">
+        <decision_input display_value="UF">1286e79547cb2610d140a464116d431d</decision_input>
+        <decision_table display_value="Car sale approval group by state delta">c4b5ef1547cb2610d140a464116d43e4</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>UF</label>
+        <order>100</order>
+        <parent display_value="">29546b5147cb2610d140a464116d43ac</parent>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 13:54:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>50b56f1547cb2610d140a464116d4327</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_50b56f1547cb2610d140a464116d4327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 13:58:00</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car sale">b0ac2750474f2a50d140a464116d4339</application>
+        <file_path/>
+        <instance_id>03f118bcfb74ee541feef633beefdcd4</instance_id>
+        <instance_name>dev318835</instance_name>
+        <name>sn_decision_table_decision_condition_50b56f1547cb2610d140a464116d4327</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition"><sn_decision_table_decision_condition action="INSERT_OR_UPDATE"><decision_input display_value="UF">1286e79547cb2610d140a464116d431d</decision_input><decision_table display_value="Car sale approval group by state delta">c4b5ef1547cb2610d140a464116d43e4</decision_table><default_operator>=</default_operator><description/><field/><field_label/><field_parent_table/><label>UF</label><order>100</order><parent display_value="">29546b5147cb2610d140a464116d43ac</parent><reference/><sys_class_name>sn_decision_table_decision_condition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-29 13:54:18</sys_created_on><sys_domain>global</sys_domain><sys_id>50b56f1547cb2610d140a464116d4327</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package><sys_policy/><sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope><sys_update_name>sn_decision_table_decision_condition_50b56f1547cb2610d140a464116d4327</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-29 13:58:00</sys_updated_on><type display_value="String">747127c1bf3320001875647fcf0739e0</type></sn_decision_table_decision_condition></record_update>]]></payload>
+        <payload_hash>1250806666</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d13f1c6047032210d140a464116d4338</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 13:58:00</sys_created_on>
+        <sys_id>9e86a75547cb2610d140a464116d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1985679cf2a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 13:58:00</sys_updated_on>
+        <type>Decision Condition</type>
+        <update_guid>1686a7554bcb26107c265ffcc01fe044</update_guid>
+        <update_guid_history>1686a7554bcb26107c265ffcc01fe044:1250806666,1cb5a755c9cb261068913eaddd9bf83e:-1214810205,1cb5a755c9cb261068913eaddd9bf83e:-1214810205</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3786275547cb2610d140a464116d4330</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 13:58:05</sys_created_on>
+        <sys_db_object display_value="" name="sn_decision_table_decision_condition">sn_decision_table_decision_condition</sys_db_object>
+        <sys_id>13abcae13418418881a50bb85259da40</sys_id>
+        <sys_metadata>50b56f1547cb2610d140a464116d4327</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_scope_delete display_value="">01a80133342b47d4817de48f90252f41</sys_scope_delete>
+        <sys_update_name>sn_decision_table_decision_condition_50b56f1547cb2610d140a464116d4327</sys_update_name>
+        <sys_update_version display_value="sn_decision_table_decision_condition_50b56f1547cb2610d140a464116d4327">9e86a75547cb2610d140a464116d4344</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 13:58:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

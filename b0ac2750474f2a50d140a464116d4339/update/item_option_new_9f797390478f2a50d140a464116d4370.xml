@@ -44,7 +44,7 @@
         <mask_use_encryption>false</mask_use_encryption>
         <name>vin</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>200</order>
+        <order>100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-26 12:47:36</sys_created_on>
         <sys_id>9f797390478f2a50d140a464116d4370</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>vin</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Chassis Number</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name>item_option_new_9f797390478f2a50d140a464116d4370</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-26 13:41:08</sys_updated_on>
+        <sys_updated_on>2025-07-29 13:07:08</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

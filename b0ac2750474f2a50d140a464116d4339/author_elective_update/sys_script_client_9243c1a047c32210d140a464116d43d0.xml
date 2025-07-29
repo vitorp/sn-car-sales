@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set form read only</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    if (g_user.userID != g_form.getValue('assigned_to')) {
+        g_form.setReadOnly(true);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 18:11:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9243c1a047c32210d140a464116d43d0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Set form read only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_script_client_9243c1a047c32210d140a464116d43d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 17:07:42</sys_updated_on>
+        <table>x_1809208_car_sale_car_sale</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car sale">b0ac2750474f2a50d140a464116d4339</application>
+        <file_path/>
+        <instance_id>03f118bcfb74ee541feef633beefdcd4</instance_id>
+        <instance_name>dev318835</instance_name>
+        <name>sys_script_client_9243c1a047c32210d140a464116d43d0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set form read only&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    if (g_user.userID != g_form.getValue('assigned_to')) {
+        g_form.setReadOnly(true);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-07-26 18:11:34&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9243c1a047c32210d140a464116d43d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set form read only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Car sale" source="x_1809208_car_sale"&gt;b0ac2750474f2a50d140a464116d4339&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Car sale"&gt;b0ac2750474f2a50d140a464116d4339&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_9243c1a047c32210d140a464116d43d0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-07-29 17:07:42&lt;/sys_updated_on&gt;&lt;table&gt;x_1809208_car_sale_car_sale&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-262387434</payload_hash>
+        <record_name>Set form read only</record_name>
+        <reverted_from/>
+        <source>d13f1c6047032210d140a464116d4338</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 17:07:42</sys_created_on>
+        <sys_id>55f1142547cf2610d140a464116d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19857277c6b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 17:07:42</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d9f11425a0cf2610f736438f7c5d8127</update_guid>
+        <update_guid_history>d9f11425a0cf2610f736438f7c5d8127:-262387434,cc35c924a0c32210ad04e921af360554:1733805001,31f38960f9c322100c03014886a4066c:-1318793303,2fc38da048c322103db36cebb2844c9c:526975575</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 17:07:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0aa8615b514545708095b9ce10329640</sys_id>
+        <sys_metadata>9243c1a047c32210d140a464116d43d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set form read only</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_parent display_value="Car sale">ba647f98474f2a50d140a464116d4355</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_scope_delete display_value="">01a80133342b47d4817de48f90252f41</sys_scope_delete>
+        <sys_update_name>sys_script_client_9243c1a047c32210d140a464116d43d0</sys_update_name>
+        <sys_update_version display_value="sys_script_client_9243c1a047c32210d140a464116d43d0">55f1142547cf2610d140a464116d4328</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 17:07:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

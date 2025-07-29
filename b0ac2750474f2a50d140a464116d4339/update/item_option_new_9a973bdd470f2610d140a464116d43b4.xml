@@ -22,11 +22,11 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>offer_value</field>
+        <field>uf</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>true</hidden>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -42,15 +42,15 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>car_purchase_offer</name>
+        <name>UF</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>300</order>
+        <order>600</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Car Purchase offer</question_text>
-        <read_only>false</read_only>
+        <question_text>UF</question_text>
+        <read_only>true</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
@@ -77,16 +77,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-26 12:48:30</sys_created_on>
-        <sys_id>1eb9b790478f2a50d140a464116d4391</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Car Purchase offer</sys_name>
+        <sys_created_on>2025-07-29 15:15:34</sys_created_on>
+        <sys_id>9a973bdd470f2610d140a464116d43b4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>UF</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
-        <sys_update_name>item_option_new_1eb9b790478f2a50d140a464116d4391</sys_update_name>
+        <sys_update_name>item_option_new_9a973bdd470f2610d140a464116d43b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 13:07:08</sys_updated_on>
+        <sys_updated_on>2025-07-29 15:25:09</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -95,7 +95,7 @@
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <validate_regex display_value="Number">556cbfe5876b1300e0ef0cf888cb0be3</validate_regex>
+        <validate_regex/>
         <variable_name/>
         <variable_set/>
         <variable_width/>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=1eb9b790478f2a50d140a464116d4391"/>
-    <fx_price action="delete_multiple" query="id=1eb9b790478f2a50d140a464116d4391"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9a973bdd470f2610d140a464116d43b4"/>
+    <fx_price action="delete_multiple" query="id=9a973bdd470f2610d140a464116d43b4"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
-        <id>1eb9b790478f2a50d140a464116d4391</id>
+        <id>9a973bdd470f2610d140a464116d43b4</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-26 12:48:30</sys_created_on>
-        <sys_id>d7d97b90478f2a50d140a464116d4388</sys_id>
+        <sys_created_on>2025-07-29 15:15:34</sys_created_on>
+        <sys_id>7248f711474f2610d140a464116d4369</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-26 12:48:30</sys_updated_on>
+        <sys_updated_on>2025-07-29 15:15:34</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
-        <id>1eb9b790478f2a50d140a464116d4391</id>
+        <id>9a973bdd470f2610d140a464116d43b4</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-26 12:48:30</sys_created_on>
-        <sys_id>5bd97b90478f2a50d140a464116d4387</sys_id>
+        <sys_created_on>2025-07-29 15:15:34</sys_created_on>
+        <sys_id>f248f711474f2610d140a464116d4368</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-26 12:48:30</sys_updated_on>
+        <sys_updated_on>2025-07-29 15:15:34</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
