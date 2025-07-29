@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="request_filter">
+    <request_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_to>10</applies_to>
+        <data_item/>
+        <filter/>
+        <group/>
+        <item_stream/>
+        <last_used/>
+        <mobile>false</mobile>
+        <portal_page display_value="standard_ticket">c729488287310010e0ef0cf888cb0ba8</portal_page>
+        <primary_display>number</primary_display>
+        <roles/>
+        <secondary_display>number</secondary_display>
+        <short_description/>
+        <sys_class_name>request_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 18:50:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>79f82c2547436610d140a464116d4379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car sale</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>request_filter_79f82c2547436610d140a464116d4379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 18:50:45</sys_updated_on>
+        <table>x_1809208_car_sale_car_sale</table>
+        <table_name/>
+        <title>Car sale</title>
+        <user/>
+    </request_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=79f82c2547436610d140a464116d4379"/>
+</record_update>

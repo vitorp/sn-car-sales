@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=88255000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=105182000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>27000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,16 +15,16 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>assign_offer_to_state_manager</internal_name>
-        <label_cache>[{"name":"1d72fb0d-46de-4ba7-a764-ec8a49deb95e.answer.result_elements.u_approval_group","label":"1 - Make a decision➛Decision Table Multiple Result Record➛Result elements➛Approval Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"var__m_sys_decision_multi_result_element_5269239947cb2610d140a464116d43a9","column_name":"u_approval_group","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"Updated_1.current.uf","label":"Trigger - Record Updated➛Car sale Record➛UF","reference":"","reference_display":"UF","type":"string","base_type":"string","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"uf","usedInstances":{"1d72fb0d-46de-4ba7-a764-ec8a49deb95e":["u_uf"]}},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"{{static.6de0a75d478b2610d140a464116d4366}}","label":"Aprovação Região Norte","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"da19682f-cad7-4236-811e-178fa9945716.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"13bd02ef-0fb3-4553-8a6f-4a01a30f4eb4":["condition"],"7f9f9baf-f794-499c-bd37-5d30846729e6":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.uf","label":"Trigger - Record Created or Updated➛Car sale Record➛UF","reference":"","reference_display":"UF","type":"string","base_type":"string","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"uf","usedInstances":{"5dd7839e-4345-4e53-8ffa-1275ef208139":["u_uf"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"56c3ae9d-4ce7-4cdf-91a6-57d7c8a52153":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.current","label":"Trigger - Record Created or Updated➛Record","type":"reference","base_type":"reference","usedInstances":{},"attributes":{}},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Car sale Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"state","choices":[{"reference":false,"image":"","label":"Pending","used":false,"rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Open","used":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Work in Progtess","used":false,"rawLabel":"Work in Progtess","selected":false,"missing":false,"value":"2","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Closed Complete","used":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Closed Incomplete","used":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Closed Skipped","used":false,"rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}}],"usedInstances":{"355a3eba-c986-44bc-a815-ea51438f6051":["condition"],"5dd7839e-4345-4e53-8ffa-1275ef208139":["u_state"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"8b207c75-e1d9-4449-a0dd-afbec7593690":["record"],"da19682f-cad7-4236-811e-178fa9945716":["record"],"5dd7839e-4345-4e53-8ffa-1275ef208139":["u_uf"],"929f155c-26a5-4734-ab98-3891234d0f38":["record"],"559d8f47-b0dc-4c42-8ea6-916a830f284b":["record"]},"attributes":{}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["record"],"163ab960-5f60-4d91-8248-872fb2a80295":["record"],"920a2ccd-91b2-4ebb-8703-b8178f1ddbb1":["record"]},"attributes":{}},{"name":"{{static.51be5c5d47cbe210d140a464116d4385}}","label":"Car salesman group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}}]</label_cache>
+        <label_cache>[{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"{{static.51be5c5d47cbe210d140a464116d4385}}","label":"Car salesman group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["record"],"163ab960-5f60-4d91-8248-872fb2a80295":["record"],"920a2ccd-91b2-4ebb-8703-b8178f1ddbb1":["record"]},"attributes":{}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"8b207c75-e1d9-4449-a0dd-afbec7593690":["record"],"da19682f-cad7-4236-811e-178fa9945716":["record"],"5dd7839e-4345-4e53-8ffa-1275ef208139":["u_uf"],"929f155c-26a5-4734-ab98-3891234d0f38":["record"],"559d8f47-b0dc-4c42-8ea6-916a830f284b":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Car sale Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"state","choices":[{"reference":false,"image":"","label":"Counter Offer","used":false,"rawLabel":"Counter Offer","selected":false,"missing":false,"value":"-5","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Open","used":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Work in Progress","used":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Approved","used":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"3","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Approval Denied","used":false,"rawLabel":"Approval Denied","selected":false,"missing":false,"value":"4","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Waiting For Approval","used":false,"rawLabel":"Waiting For Approval","selected":false,"missing":false,"value":"5","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Offer Refused","used":false,"rawLabel":"Offer Refused","selected":false,"missing":false,"value":"7","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}}],"usedInstances":{"355a3eba-c986-44bc-a815-ea51438f6051":["condition"],"5dd7839e-4345-4e53-8ffa-1275ef208139":["u_state"]}},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current.current","label":"Trigger - Record Created or Updated➛Record","type":"reference","base_type":"reference","usedInstances":{},"attributes":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"56c3ae9d-4ce7-4cdf-91a6-57d7c8a52153":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.uf","label":"Trigger - Record Created or Updated➛Car sale Record➛UF","reference":"","reference_display":"UF","type":"string","base_type":"string","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"uf","usedInstances":{"5dd7839e-4345-4e53-8ffa-1275ef208139":["u_uf"]}},{"name":"da19682f-cad7-4236-811e-178fa9945716.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"13bd02ef-0fb3-4553-8a6f-4a01a30f4eb4":["condition"],"7f9f9baf-f794-499c-bd37-5d30846729e6":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6de0a75d478b2610d140a464116d4366}}","label":"Aprovação Região Norte","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"Updated_1.current.uf","label":"Trigger - Record Updated➛Car sale Record➛UF","reference":"","reference_display":"UF","type":"string","base_type":"string","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"uf","usedInstances":{"1d72fb0d-46de-4ba7-a764-ec8a49deb95e":["u_uf"]}},{"name":"1d72fb0d-46de-4ba7-a764-ec8a49deb95e.answer.result_elements.u_approval_group","label":"1 - Make a decision➛Decision Table Multiple Result Record➛Result elements➛Approval Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"var__m_sys_decision_multi_result_element_5269239947cb2610d140a464116d43a9","column_name":"u_approval_group","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}}]</label_cache>
         <master_snapshot>1e5defdd47cb2610d140a464116d431f</master_snapshot>
         <master_snapshot_digest/>
         <name>Assign offer to Government manager</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>9f3294a547cf2610d140a464116d43c8</remote_trigger_id>
+        <remote_trigger_id>a092202d47036610d140a464116d43d0</remote_trigger_id>
         <run_as>user</run_as>
-        <run_with_roles/>
+        <run_with_roles>65cee7d4474b2a50d140a464116d4311,29ceefd0474f2a50d140a464116d439f,d1ce2f1047cb2a50d140a464116d439a,61c9ba84b3131300ed7fc9c316a8dcba</run_with_roles>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8273c70d4707e210d140a464116d4332</sys_id>
-        <sys_mod_count>94</sys_mod_count>
+        <sys_mod_count>102</sys_mod_count>
         <sys_name>Assign offer to Government manager</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name>sys_hub_flow_8273c70d4707e210d140a464116d4332</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:17:15</sys_updated_on>
+        <sys_updated_on>2025-07-29 21:59:22</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
@@ -53,7 +53,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=8273c70d4707e210d140a464116d4332"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1809208_car_sale_car_sale">stateCHANGESTO-5<item display_value="Pending" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="-5"/>
+        <condition table="x_1809208_car_sale_car_sale">stateCHANGESTO5<item display_value="Waiting For Approval" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="5"/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -67,15 +67,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-29 17:08:55</sys_created_on>
+        <sys_created_on>2025-07-29 18:20:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9f3294a547cf2610d140a464116d43c8</sys_id>
+        <sys_id>a092202d47036610d140a464116d43d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:08:55</sys_updated_on>
+        <sys_updated_on>2025-07-29 18:20:18</sys_updated_on>
         <table>x_1809208_car_sale_car_sale</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -85,14 +85,14 @@
         <identifier>8273c70d4707e210d140a464116d4332</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-29 17:17:15</sys_created_on>
-        <sys_id>4924546947cf2610d140a464116d4364</sys_id>
+        <sys_created_on>2025-07-29 21:59:22</sys_created_on>
+        <sys_id>3db415a147476610d140a464116d433b</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:17:15</sys_updated_on>
-        <trigger display_value="">9f3294a547cf2610d140a464116d43c8</trigger>
+        <sys_updated_on>2025-07-29 21:59:22</sys_updated_on>
+        <trigger display_value="">a092202d47036610d140a464116d43d0</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=8273c70d4707e210d140a464116d4332^sys_idNOT IN4924546947cf2610d140a464116d4364"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=8273c70d4707e210d140a464116d4332^sys_idNOT IN3db415a147476610d140a464116d433b"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=8273c70d4707e210d140a464116d4332"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=8273c70d4707e210d140a464116d4332^sys_idNOT INc673c34d4707e210d140a464116d438c"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -374,12 +374,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 16:05:32</sys_created_on>
         <sys_id>3eb34461478f2610d140a464116d435f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:12:15</sys_updated_on>
+        <sys_updated_on>2025-07-29 18:19:35</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/9Va227bOBD9FUFPu4C70MXX9CnrJNsAbQM4bvehKASKpGxiZcoVKSXeov++Q90s6+L4onTdlyQmqZkzwzNnyMhfvus+cqmvX+lz5PpU7+mMSxpy5M83awrDUg07HK3U3ApxgmQQbvQrGUa0p3thsJrT1dpHEhZ7yBcwGISEhvqV2dNj5Ef0cSPuCViC5xMzmU09m4bPz445NiaWMXYwCh2BwGH+B6wiTID9zeds8RSFWjaDl8wnIeX61ZevPX2NQjAvlevvlSmm/JuEINOiBrZN27IMwxr3TXdou6ZFbETRGAxWc1HBKxtSsg2WPkvKCSVFHmrZCikiD9zflFY8C/Yv2BwbatajgBjTNFfFRydLQDqMlwHD9GEtWcDTkRRdOhn40Yp/TFGr1FEPRb7MUwcjkQB7dK2Aclng8B6XwdMsd3jHeBJTNukHGPnFJyRlyNxIUqHS7DEfEu6kGRFBFCboZ7fTh9mN8/f1fPrudubMbh/ns/vp/PZG/5HE5XyLlMUUYYbFScP5Uez3HaO+2jYerVxA09MFDtlaXmPJ4pxrP3pb/k4DTliSlRqHcT4ldjmcR7+PxIbRSmNc8phTWUgwMn13/fEvCPrhzeBolrruBBGKWlg6HJVYWo64AZJsCL4c1T6+ZiPthO0bxv9E2Ux4TmXsKiDUv9ma02FysQAOM76OpMpRnhcnWNNQ5QOe0z9fv8929W32+2728OFtsdPw3BPiUjgycBAhTinrygXE8hL105zU+f8y88OIgwmn2M86/5MNKHbiPRMQ+Beo3jzLiUmY995nJmcR1wLYePih4SiEJEstV0HvfoUW2d54j9SnWJZI5H0S5U8fmBCML0qoC6dJVmo+C3dARi0PKfUtznT+tcviryc9riSz0reOVoIhJmbfHQ2NkdIB07BdzzRGxgB5xDaMiV1SgjqYVpSyQokOFeE4PRAJBf0DCFdNbAbZKNfAQeSJd5mXh66IkcnOtBtoZkfQLAWtIp/2UfpZkDEdvtnl5L7QOj4pIBIjeIIcKodqwQG65/nBE0j3CZrnIvzPIgwiTqoipGxqjGvbFdpvWf5+71D/vCCk+wHsrrgk5dumPScu4psONK9PMRkN+0MDpM4GlXMHk4mLkeV5o+GIGqSieVsYjdguWOte4FjcRNI23WukS9zEsiMU7wyANfU7GuD5upfRsVH10rlfQ9+elpQ7ADV0fKVgNZlb+IzQfK7bGq+5jrdVfW6d296YDAajER7BDQfq3OtTF5l9a4Amo6FNh5U6r0HZB1M2ZOYV7z1iIxL3LRrwKZ26rGv7a5JVUClV6zm+I3M4qSbPoNRJqSuqzdASKQlC7WPA39xv12mPFJpdcuXtqjUfgkJtrPa6MNxALmtnA3D9J4zvuFZnypasXNylqUKSeDfWsw8QY3syIJ7dLCwjq0lYtmDaYV7oUeLAuohbK6zpTHEozePGamk9BJxA3Ao5yqeDPceXrpJidp4U6/WSYp99ZMorsPWmeArYX6hxJWeIc7qX8kmdwCtL9k2gwYQGTjTmadn/GuHi7240uaSQUh/OxuBQU97P1epy76hDKRj8c4Gkp+1aD4NhLTs2XV57qlCh2zsu9iYumdgtZ99B+9m3vU9Vpi+0WR1dC3FTae3tWMfZrdps7Fklou7y4MBu1GnUzS3pvKgbm9JLUZ/fbvbd0BtQXH4jUaDn6Tac0D4Cjit3Ddzly5aIs28RdfAS8UX6IiV3dAd5pggvtXSJli7psgH4T2gj9GonAtKqusj+7QwDUCE81a+uPNOYhptarGpQi9ZENYef3nz2fCkiew8pZAhPLjalysvjOLLPmJOBZZMxts2JXf++g1nqM7vUbQfU2lhe+PpDW2NZsuQVbMl9tj2SrWgiY8V7VG2FJF5S0dNgD5N3FonKsVDIZPUfeoeXKlx+t5NVZlPfaa2duK3sWnV8TznE1UJqEu4GalfpU5buvdenPeGbnYRvdRG+fVr4/bM7V5aR5taVZa/bdnXC12b05n719T/R08f38iUAAA==</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
         <updation_source/>
@@ -400,10 +400,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 13:51:33</sys_created_on>
         <sys_id>0415671547cb2610d140a464116d4340</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:18:28</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2025-07-29 22:02:48</sys_updated_on>
         <ui_id>da19682f-cad7-4236-811e-178fa9945716</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1YXW+jOBT9KxHPCWvCR0jeqkZdzWp3Rmo789JUyNiXxCMHGBvaZlH++xowH5M0mWSVWanbeYnie33tcw/nYOChMBg1ZsbEj8YwnY5RaCFkI+S7BPk2hPbEm9iYIGNoxHgNaqYAkgiqxk+Y52WgKD6nFGdAA8skuRAQZ9utylMmU443X/Q0FSErxqnKG7OHx6GRYqFWzEAYs2IndSokjkPgauptg2kXY7ZJyzFNSL5WuALWBP/UlXOdGXyYq4wqKuGgoQEvGcQUFI4IcwlDY41j1WQiNsYsE7kKCMD0U8w37YwVi7O6zzV+kexvtbE9LudFoBojmoN2GGh+6nA0xxm+UyuTLBctXQkjIGtKKEQ459l1P1ZP+JRmLInrkgyHvKlOeL6OP9aEGO0CvcuRSwUC0rLPEnndVnS3Sp5vG5A3LK4Y0S3yhGDejnCWCRbmWQmnMIBDRfEapymLl0EqkidWFSsoa3PJ1cCMePKs9pRsGZuYlLhNxSo2b1R8XoW/YMHKJv5Sy6ji7dCQG3nNsZRdK4rD4FteIqkb0y0EFQs1BWUdESzNrtQuT6Axb4da7iE5qi3SSalerlP7S2D5SBX6AcEikJhD+2df89dYDHTmPO2fgK/R/r0GuINXK78aBlXue+FXZYOPdULr3jquex3phF8r5hXd++gN6V639eaF/yPNg+PZrvqZRDayxhbywfN9MkWY+J7nOnanIYVA9YB5oC61VGt36m8EPUgiRdRAKRFSdec3D0v/lZnnWeEE2I0VrjTuwW2D+2BD2h5SXch4uWONuyaobTE+0xaHzwPLe0/GyNn9Dst1ZI/nn+OgcrvPMfuWw4dSR9449KbIpyMaoXDk+LY7wgTQCDzLBZd6xLXsn+A6ZB27k1P/FZFGDHj/AatJ7JuslznPVCeg2jPVjYZ1CK62VDV87cSp6ndOnMtZy0foLXnrPT1skaNig97B8zXJRXzEAcGKyUoZB53Qm3GeI04A2TjijxrlriF2wf8bP9i//PD/94PjHpVa72G+VTVJYspKxLLnivrODPIWvgLJ5FW8+f2hKCw6GUchoiPHozByQjwZ4YnnjID42JlSCKcumDiWzyBMAVJdlUCzJ808aHdciiRPt9vHfav9V9ue598TSG2/FuQc5I9I1u7tnhx1Ud/B3fOmTmoXO5f6fvDGTPxe3qTIUa1F005bNFcE4az/AaFYGDXshTFbGHESw8IYLoxyVlCKqwoL4LjcuU1V0aLYbutILrBewuoNu3qKN7KaKckKqFJnFf0uElR20PFLfK87gZXGgfMcBvOaln2imlezBmfNDNs7P+/0hGql3+5Z/xx1L3aOOr8MeIkXsfYOXx6S6v53QVc+/gP5McvJxBYAAA==</values>
@@ -424,10 +424,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 17:17:09</sys_created_on>
         <sys_id>7714d06947cf2610d140a464116d43f7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:18:28</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2025-07-29 22:02:48</sys_updated_on>
         <ui_id>163ab960-5f60-4d91-8248-872fb2a80295</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVTW/iMBD9K8jnKEoIRcBtBUJaqdtK7S6XbhVN7Emx5Hys7VBYxH/fSeIAgqqlUi9oc4rnw37v5Y3ztGVSsAkboAjCcTjkURhF/SDojwZhMoySsC8iQAyZx3LIkCo18kILWq9AVXVgu/1VCrAo4tDnldaY292O8kKaUsFm4coowpdSCcqzydOzx0rQtKNFzSbbk9SlkBQkqKj0ocN0itFuynotCl5lhCuWXfDWdc5cpvd9RhlqquGEgcdwbTEXSEBSUAY9lkFOLAu9YROrKwpoBHGfq82+Yilz2xLNYG3kXzp5ENR1KRIz7kTYL2MnUBtOZ2DhkXbmttJ7vQrJ0bSaCEyhUnZ6HGsL7ksri7xtsZCorrtQVZbftYqw/QZH36MyBALLmmeNvKWVPi6L14cO5FzmjSSOoio4qP0KrNUyqWwNZ8tQYaNxBmUp85e41MVKNs0EJfNfFC38VBWvdKaRL7kPvMbtk6rgzyk+a8IL0LIm8YO2oeadx8zGTBUYc6BCGsZ/qhpJS8xRiBsVGgnixgl1M9eytN/oqBU64DvPmT65ec9hfHww1NGeB+Ov43AUjPvBKOagYwNU0b2c238KuucynxuDC0B2Y/Cz+fhvg3aTcBa7Pe7t3bUJNwc3XzYHo2uaA0fj6gfhI/sH/Xcv2CMnNY43R9Y3li7831UQRCI69/pJ9nN+vwBV5/e5RCXMGzA7s2NGsCzGLewTw7tkb+GS+8v/y1wfDoPmuSLv/zf/gOd/Drn3GPoIAAA=</values>
@@ -448,10 +448,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 17:17:10</sys_created_on>
         <sys_id>bb14d06947cf2610d140a464116d43f8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:18:28</sys_updated_on>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2025-07-29 22:02:48</sys_updated_on>
         <ui_id>920a2ccd-91b2-4ebb-8703-b8178f1ddbb1</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVTW/iMBD9K8hnFCWEIuC2AiGt1G2ldreXbhVN7AEsOR9rOxQW8d93kjghgqqlUi9oc4rnw37v5Y3zvGdSsCkbovCDSTDiYRCGA98fjIdBPArjYCBCQAxYn6WQIFVq5JkWtN6AKsrAfv8rF2BRRIHHC60xtYcD5YU0uYLdkyujCF9LJSjPps8vfZaDph0tajbdn6QuhaQgRkWlDw2mU4x2l5drkfEiIVyRbIK3rnPuMr3vc8pQUwkn8PsMtxZTgQRkCcpgnyWQEstM79jU6oICGkHcp2rXVqxlamuiCWyN/EsnD/2ybonEjDsR2mXkBKrDyzlYeKSduS10q1cmOZpaE4FLKJSddWN1wX1uZZbWLRZi1XRnqkjSu1oR1m7Q+R6FIRCYlzxL5DWt5eM6e31oQC5kWkniKKqMg2pXYK2WcWFLOHuGCiuNE8hzma6iXGcbWTUTlMRbKVp4S5W90plGrlIPeInbI1XBW1B8XoWfQMuSxA/ahpoPfWZ2ZqbAmCMV0jD6U5RIamKOQlSpUEkQVU4om7mWuf1GR23QAT/0nenjm/ccxidHQ3X2PBp/GwVjfzLwxxEHHRmgiubl3P4z0D2X+dwYXACyGYOf1cd/G7SbhLPYbbe3d1cn3BzcfNkcjK9pDhyNqx+Ej+zvD969YDtOqhxvOtY3li7834Xvh2J47vWT7Of8fgGqxu8LiUqYN2A2ZseEYFmMatgnhnfJ3pNLtpf/l7k+GPnVc0Xe/2/+AS//AFmLW476CAAA</values>
@@ -477,10 +477,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 17:17:09</sys_created_on>
         <sys_id>3714d06947cf2610d140a464116d43f8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:17:13</sys_updated_on>
+        <sys_updated_on>2025-07-29 21:59:20</sys_updated_on>
         <ui_id>5e092946-0f91-4313-8a2f-203bab5cb648</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -504,10 +504,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 17:17:09</sys_created_on>
         <sys_id>f314d06947cf2610d140a464116d43f6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:17:13</sys_updated_on>
+        <sys_updated_on>2025-07-29 21:59:20</sys_updated_on>
         <ui_id>7f9f9baf-f794-499c-bd37-5d30846729e6</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8lUJnWRAlS37cjBYBCrQN0AS5tIGwIimbKEWqJGXHNfzvXerhGImNFkWOvYmz3N2Z5awOgW5d0zp7r1fWirUKlt8ew0Aoj+H3IVBQ82AZUK2YcEKrogPCYAuy9YFV0xi95QwhJmwjYf/wOkI3QjLDh+oNGKzhuAmWhxcht294IaHkEgvcOSPUGtMFw1MVQ0UWlNA0ydMkjpP5lJR5WpKEpcAhxXtj4vuR7LtPHRJeVeH7IW7HTtowT4vEYcCfHFcM6S8rkJaHQQ2KgdNmf0IMB3ar5DOwEcphucBffrLiF9ZOssxfrDhqpLwPno7FMLIephstKL9tPMEecVDKIYdq2dbqS6/DD5tX0Eo3DhuR1mI93njSnsVAqbrb6N3XseGNUJ3AISg1BXk6gcMxlK3j1j8Ml7zGQkUNTYPDKfxjii4ZudTRWuIhqqTeYVPvnAioJx7hjCC6QfxDBz+AEV7FZyyDyT3NEqygRecyLOcMSjh2Yyl+tp5QL3CQUvTTwAuWGtG4FfbZ8oH1MXxt0TN3Hg4MyCKfJ9WEAptNpkmaT+aE8AmZzStYLKbZjOQRdFYFWVgHjh+P39s4ThlctfZblX2LvVhAVmUkzi7vxTS/tBcXNuL6MiR/WAb/fH+5C3Ec/1+G82UQtuhNPWjrmv/zLjx64/cdbO8bxqmwSOTeYx/Hv7oP7NEAgp5DO21+eAnP2PE3Mw346h8GAAA=</values>
@@ -531,10 +531,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 17:17:09</sys_created_on>
         <sys_id>ff14d06947cf2610d140a464116d43f2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:17:13</sys_updated_on>
+        <sys_updated_on>2025-07-29 21:59:20</sys_updated_on>
         <ui_id>1d72fb0d-46de-4ba7-a764-ec8a49deb95e</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+WYWW/jNhCA/4qq58DRZTnKS5Fu1sUCbYN2N/vSZgWKHMVEaUolqTiu4f/eoQ5b8ZHEXrdAtk+2Zsi5+HHG1sItKlNWRn8qrrTm99K9/P3uzOXSyvD7wpVkCu6ly4ByzQuZCpKBcM/cByIqq7hGBQPnqixVgTLnXhVViXrGdSnI/PMLy+iEC6ag9VsShe4MKPdysaEy8xJa55fuR6O4vMftnOFTwGISUDLysiD0Q89LPA8fsyQcxaOQ5Dmu6zZet2k4P7Vp7EvPukO57hwVitmohmcuPBqQDNBxToSGM3dKJCOmUPOVRAFhN1KsBRMuDVpz7eJHzf9G08FwaBfmgBlSaJSrx7StXiOmk4JTuCkNBthIDMlEu4cWoprKX5o0bN0hJ5UwXd1RUmm0B6UN2kbRhpR/nBSz3zqHYy7r/FqlKCgRqydisApZZUDbYwEBUzSUTklZYm1Se6C83oyxTAf3Ah8GuShm6NQSNSDUBj7AGpHBGOXXtfgzUdxm8TOawc3LOvv0r8r6bfJoI06bpHGBpoqX5grNPUAb3PJsm9CmOGtCh0GcBGGSRCOaBbHvMT/ySBRHvh+zKCTJNqwrSn+0lDrZ3LkdH83qqsYdriQhXkaDbDeuNN6F66c2p325triqnq+WWN97HlmjqlcSGwZPgdVznXaB7IF3K/7/A8pY+gdQCvemlbKneC6L2XlXqcYSqPNJMYXvG4N/VJ4XMi41KIPbCWMpl6mEWTrDZIoZ2rDHhCpg3OzTaaxCins3JBqIopMNoQJBDLBUcG061dMrSOpr1kRm1V/scVNBtE4thN81mj4D+EUY8uX9r8fcXngEWpmGpO7i5lxpezgGw9+6o2OrdDrfjpkQ49RL8WiPvarvajq7e3pB4zi8IPnuexr2x8r7XvQ7EmpvJ+3Md1fzdNMk8g4bJs1s78J/vpa7j6PNwbNnuGp1lXSIECtLumeqZ0hVMsVlvUIs71a3/d1p4/NPEV9g49toXeFBvWsD5UZ5fQjRb6L1ff0UJ1LPQG3N8Cd9Zoq149jCNH5uN4bnlh7XFurh5dRn27aGiGYsy5OIhsOLAFtDcBH5WRxmfsBCAll/hF/VCW0O8I002wZRP9bttT+/XxjgB3SJiwO7xLc+px8QEltxHKi5Pdba+QkgnhCdZorIjQblbcPaeDwaTJzL5+PWRA3mKA/yYZ74o9ALPM/3aJYDTVgQRnlMRknWA/NWg/PDOsjdobdgZkUhgMh/h8pDZ9dxVPp7+277u+i0zH49RFxSUeFvyMJMQM24hv+WpDCKs9AjoYd9bfvXzxB6JH1oInVuepE+k8Q+poI3x9Rb6XTHwnhniWss6QaabrDW4+zD+i1RjYyPwy8eDff80QZ/jUWVVnkP58XitmT1/xF/QCuFRTODKl8utyl/ZuVx745eEfOqYY63EtjzlujF7vj6P93f8kuip28xGoav+4CdDmM2x4PjdEUsimaF+tPepLVs+Q+5tdhfDhUAAA==</values>
@@ -627,7 +627,7 @@
         <description>assign car offer to state manager responsable</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>assign_offer_to_government_manager</internal_name>
-        <label_cache>[{"name":"1d72fb0d-46de-4ba7-a764-ec8a49deb95e.answer.result_elements.u_approval_group","label":"1 - Make a decision➛Decision Table Multiple Result Record➛Result elements➛Approval Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"var__m_sys_decision_multi_result_element_5269239947cb2610d140a464116d43a9","column_name":"u_approval_group","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"Updated_1.current.uf","label":"Trigger - Record Updated➛Car sale Record➛UF","reference":"","reference_display":"UF","type":"string","base_type":"string","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"uf","usedInstances":{"1d72fb0d-46de-4ba7-a764-ec8a49deb95e":["u_uf"]}},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"{{static.6de0a75d478b2610d140a464116d4366}}","label":"Aprovação Região Norte","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"da19682f-cad7-4236-811e-178fa9945716.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"13bd02ef-0fb3-4553-8a6f-4a01a30f4eb4":["condition"],"7f9f9baf-f794-499c-bd37-5d30846729e6":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.uf","label":"Trigger - Record Created or Updated➛Car sale Record➛UF","reference":"","reference_display":"UF","type":"string","base_type":"string","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"uf","usedInstances":{"5dd7839e-4345-4e53-8ffa-1275ef208139":["u_uf"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"56c3ae9d-4ce7-4cdf-91a6-57d7c8a52153":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.current","label":"Trigger - Record Created or Updated➛Record","type":"reference","base_type":"reference","usedInstances":{},"attributes":{}},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Car sale Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"state","choices":[{"reference":false,"image":"","label":"Pending","used":false,"rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Open","used":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Work in Progtess","used":false,"rawLabel":"Work in Progtess","selected":false,"missing":false,"value":"2","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Closed Complete","used":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Closed Incomplete","used":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Closed Skipped","used":false,"rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}}],"usedInstances":{"355a3eba-c986-44bc-a815-ea51438f6051":["condition"],"5dd7839e-4345-4e53-8ffa-1275ef208139":["u_state"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"8b207c75-e1d9-4449-a0dd-afbec7593690":["record"],"da19682f-cad7-4236-811e-178fa9945716":["record"],"5dd7839e-4345-4e53-8ffa-1275ef208139":["u_uf"],"929f155c-26a5-4734-ab98-3891234d0f38":["record"],"559d8f47-b0dc-4c42-8ea6-916a830f284b":["record"]},"attributes":{}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["record"],"163ab960-5f60-4d91-8248-872fb2a80295":["record"],"920a2ccd-91b2-4ebb-8703-b8178f1ddbb1":["record"]},"attributes":{}},{"name":"{{static.51be5c5d47cbe210d140a464116d4385}}","label":"Car salesman group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}}]</label_cache>
+        <label_cache>[{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"{{static.51be5c5d47cbe210d140a464116d4385}}","label":"Car salesman group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["record"],"163ab960-5f60-4d91-8248-872fb2a80295":["record"],"920a2ccd-91b2-4ebb-8703-b8178f1ddbb1":["record"]},"attributes":{}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"8b207c75-e1d9-4449-a0dd-afbec7593690":["record"],"da19682f-cad7-4236-811e-178fa9945716":["record"],"5dd7839e-4345-4e53-8ffa-1275ef208139":["u_uf"],"929f155c-26a5-4734-ab98-3891234d0f38":["record"],"559d8f47-b0dc-4c42-8ea6-916a830f284b":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Car sale Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"state","choices":[{"reference":false,"image":"","label":"Counter Offer","used":false,"rawLabel":"Counter Offer","selected":false,"missing":false,"value":"-5","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Open","used":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Work in Progress","used":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Approved","used":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"3","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Approval Denied","used":false,"rawLabel":"Approval Denied","selected":false,"missing":false,"value":"4","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Waiting For Approval","used":false,"rawLabel":"Waiting For Approval","selected":false,"missing":false,"value":"5","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}},{"reference":false,"image":"","label":"Offer Refused","used":false,"rawLabel":"Offer Refused","selected":false,"missing":false,"value":"7","parameters":{"name":"x_1809208_car_sale_car_sale","dependent_values":[""]}}],"usedInstances":{"355a3eba-c986-44bc-a815-ea51438f6051":["condition"],"5dd7839e-4345-4e53-8ffa-1275ef208139":["u_state"]}},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","usedInstances":{},"attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current.current","label":"Trigger - Record Created or Updated➛Record","type":"reference","base_type":"reference","usedInstances":{},"attributes":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"56c3ae9d-4ce7-4cdf-91a6-57d7c8a52153":["record"]},"attributes":{}},{"name":"Created or Updated_1.current.uf","label":"Trigger - Record Created or Updated➛Car sale Record➛UF","reference":"","reference_display":"UF","type":"string","base_type":"string","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"uf","usedInstances":{"5dd7839e-4345-4e53-8ffa-1275ef208139":["u_uf"]}},{"name":"da19682f-cad7-4236-811e-178fa9945716.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"13bd02ef-0fb3-4553-8a6f-4a01a30f4eb4":["condition"],"7f9f9baf-f794-499c-bd37-5d30846729e6":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6de0a75d478b2610d140a464116d4366}}","label":"Aprovação Região Norte","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}},{"name":"Updated_1.current.uf","label":"Trigger - Record Updated➛Car sale Record➛UF","reference":"","reference_display":"UF","type":"string","base_type":"string","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"uf","usedInstances":{"1d72fb0d-46de-4ba7-a764-ec8a49deb95e":["u_uf"]}},{"name":"1d72fb0d-46de-4ba7-a764-ec8a49deb95e.answer.result_elements.u_approval_group","label":"1 - Make a decision➛Decision Table Multiple Result Record➛Result elements➛Approval Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"var__m_sys_decision_multi_result_element_5269239947cb2610d140a464116d43a9","column_name":"u_approval_group","usedInstances":{"da19682f-cad7-4236-811e-178fa9945716":["approval_conditions"]}}]</label_cache>
         <master>true</master>
         <name>Assign offer to Government manager</name>
         <natlang/>
@@ -635,7 +635,7 @@
         <parent_flow display_value="Assign offer to Government manager">8273c70d4707e210d140a464116d4332</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
-        <run_with_roles/>
+        <run_with_roles>65cee7d4474b2a50d140a464116d4311,29ceefd0474f2a50d140a464116d439f,d1ce2f1047cb2a50d140a464116d439a,61c9ba84b3131300ed7fc9c316a8dcba</run_with_roles>
         <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
@@ -644,7 +644,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1e5defdd47cb2610d140a464116d431f</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -652,7 +652,7 @@
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:17:14</sys_updated_on>
+        <sys_updated_on>2025-07-29 21:59:22</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -736,14 +736,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 14:27:46</sys_created_on>
         <sys_id>ae5defdd47cb2610d140a464116d4336</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:17:14</sys_updated_on>
+        <sys_updated_on>2025-07-29 21:59:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -820,14 +820,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 14:27:46</sys_created_on>
         <sys_id>da5defdd47cb2610d140a464116d4321</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:17:14</sys_updated_on>
+        <sys_updated_on>2025-07-29 21:59:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -939,12 +939,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 14:27:46</sys_created_on>
         <sys_id>665defdd47cb2610d140a464116d434c</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:12:18</sys_updated_on>
+        <sys_updated_on>2025-07-29 18:20:17</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
         <updation_source/>
@@ -1042,10 +1042,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 17:17:14</sys_created_on>
         <sys_id>f024546947cf2610d140a464116d4325</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:17:14</sys_updated_on>
+        <sys_updated_on>2025-07-29 21:59:21</sys_updated_on>
         <ui_id>5e092946-0f91-4313-8a2f-203bab5cb648</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -1069,10 +1069,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 17:17:14</sys_created_on>
         <sys_id>fc24546947cf2610d140a464116d4321</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:17:14</sys_updated_on>
+        <sys_updated_on>2025-07-29 21:59:21</sys_updated_on>
         <ui_id>1d72fb0d-46de-4ba7-a764-ec8a49deb95e</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Y32/bNhD+VzQ9G45+WY7yMqRJPRToGixp+rK2AkVSMTFa0kgqjmf4f99RlGTFsp24sIsV3VOsO/L43d13xwuXdl6qolTyY34pJXvI7Is/vwxslmkZ/F7aGZpR+8ImFDPJ8izmKKHcHtiPiJdacQ0KQq3LohA5yKwHkZcF6AmTBUeLTy8sw1PGiaD1uQUScJyiwr5YbqgYASseCZGH0dhJPN/1HSdyHPhMIn8cjn2UpmDQ4DMHasDW+xrwLkfUotByqQTLHurv97WRu0aYC6JBjQY2fVI0IxTQpIhLOrBnKCNI5WLRSgRF5Cbja8GUZQqs2Xrxk2T/wHneaKQXphQcxNQo28+4Dp4Rp9dIIUBSYlWKeime5gxTaUJDaIpKrq66MrPgplDgqtmiUMKb3TkvZ9kHExC7NdDkCiSlBBC00J5q6LUf6d00n982KCcsq4JSK3mOEW+/kILQJaXSeJY25XQGhuIZKgoIaKxJwKrNgGU2fODwMUx5PodDNQuHCGvgQwgsGk5Afl2JPyHBtBe/gxnYvBrYciGvOJJy7QsEMf671EiMZ7UPsQmD3oIFK9QlHPBIa7irQZ/nJlxrno+8MPL8KArGOPFC1yFu4KAgDFw3JIGPoj7lW67/prluJQvrfnIw41GEnAR7yXbG43Ab4z/W0He5VDN+zb7npL/tyGveu85+4gM5X8l733tOe0hg3ADcUQI9v37IgkjvKBJ4OmGU67xWufk+ZQJZfKRCwN64FDrBZ1k+P2uCbixRcTbNZ/RXY/Bz6Tg+YZmkQmmQhMQsizM6j+fgYj4HGzrjoKKEqV06CbGJYe+GRFZx2BAKypGiJOZMqkb1UnmjqoQNVr3hq+YS1stjHd1fjKZLMPjBFfr69o9v6Qz0ieJSGZo2TSFlQup0KXCoV/8TrbSasy01RcqqlkKyD20D5zgM/XOUbm8Dfvfie9vBuQV6XfymHDYq/6oRNmV/vPsucI5z3S1bP/eHd3uGar8cndbGzm2ZWYjz1pLsmOoYEmUWw7JOcFbbOs1R8LnHwOet+l3PP6jtbbDbKK8PIflPO0agTM6p6A0Rz5rRDKLJoPNJ+NvvHvuWHtY7ApyQJI0C7I/OPegd3nngJqGfuB7xEU26I8RlBXtzgNhwpu4g1Wdc32PdLlLttj4YRTtAvDBB9FqJGSm2dJLzI3WS/+ic8H0mgkfglU4fXN2p5kh1+EkqYYpknAiUbfQ9p894g+FQdo9TLx2lkTv2Hc9xXAcnKcUR8fwgDdE4SjrsvpfUerOGsh1gze4kzzlF2Sa1gZRnkxrnN1P79LfkCbjt7rwC6jnuuMw/BRVZhnkJU3CuplTMmaSn4KMfhInvIN+BFtuf1Ea0w8d3Bo9108GzB+rBzPR+Dmb+KF33eJT+onlrbLcxNZNCdfe+W7/eVZR04Z4Px6MdTxfUXdOujMu0UxTL5X1Bqv/L3CEuBYRRDct0terXyp6VLxXMK9C1DXzSg3rI692Lnfr1zxj/P95tVMPzRyZTCdddUp6yGMgCSMFwy3sQzXPxl67QtWz1LzpmDgjsFgAA</values>
@@ -1096,10 +1096,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 17:17:14</sys_created_on>
         <sys_id>fc24546947cf2610d140a464116d4323</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:17:14</sys_updated_on>
+        <sys_updated_on>2025-07-29 21:59:21</sys_updated_on>
         <ui_id>7f9f9baf-f794-499c-bd37-5d30846729e6</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnWdDDkh83w0GAAmkDNEEubSCsSComSpGqSNlxBf97l3rYRuOgDZpjb+Ysdzkz2oFbohtbNdbc65Ux4kmR5ddHjwjlMPzdEgUlJ0tCtWLCCq2yDvDIFmTjCquqqvWWM4SYMJWE/cPLCt0IyWo+TK+gxhmW12TZ/lYSDBuLAIpwQUMaR2kcBUE0n4Z5GudhxGLgEONACTmXeHU90vpw0yHeq3ztvnK4sbVQT8P5ZphyN4K6Zo5VGHiEP1uuGLJfFiAN90gJioHV9f6I1BzYrZInYCOUxXHEXX424ic+GCWJu1hwlEh5Xzwes8GxHi6uwAJSaaht6uEq3WhBuenNYbyARtr1OdZfuK2c1L7FQi7Hbi2bUn3uHSHHAeMHQqQxSIJXTqmjPugo7jZ692VkeS1U58pQlJqCPJ7Aond5Yx2flnDJSxyUlVBV6GjmFkB0zcil9J8kHvxC6h0+6rbNB+qI+2gs+NeIX3XwA9TCqfiEY7C5p5mDETTrNhPHoU2cHDxi9mYtwZiTSHQ3+9E4ir3kQVzW++NaaC0qu8KXt3zQcfBeLvrZjrctg3CRzqNiQoHNJtMoTifzMOSTcDYvYLGYJrMw9aFbeJCZsWD54fCtCYKYwasBea+xb0vXApIiCYPkcrqm6aV0XcjVGyMV/SFS7nv+ZaKCIPgfqX+OlDBZH4RBW/f4Oybq0cWnf/PoNRUGqd077OP4D+MKe1wuQc+hna6/O1En7PAL6KDdwKsGAAA=</values>
@@ -1188,18 +1188,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"ea5defdd47cb2610d140a464116d4366","name":"plan","plan_signature":null}}</plan>
         <plan_id>8273c70d4707e210d140a464116d4332</plan_id>
-        <snapshot>83641c6947cf2610d140a464116d4382</snapshot>
+        <snapshot>848555e147476610d140a464116d43f7</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-29 14:27:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ea5defdd47cb2610d140a464116d4366</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:17:15</sys_updated_on>
-        <trigger display_value="">9f3294a547cf2610d140a464116d43c8</trigger>
+        <sys_updated_on>2025-07-29 21:59:22</sys_updated_on>
+        <trigger display_value="">a092202d47036610d140a464116d43d0</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=8273c70d4707e210d140a464116d4332"/>
 </record_update>

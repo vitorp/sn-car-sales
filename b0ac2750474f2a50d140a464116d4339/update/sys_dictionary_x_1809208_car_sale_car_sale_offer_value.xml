@@ -33,12 +33,12 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="Currency">currency</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>20</max_length>
         <name>x_1809208_car_sale_car_sale</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name>sys_dictionary_x_1809208_car_sale_car_sale_offer_value</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-26 13:09:15</sys_updated_on>
+        <sys_updated_on>2025-07-29 18:33:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description>Checks if counter offer value is not zero when current state is counteroffer</description>
@@ -15,8 +15,8 @@
 
     // Check if value is zero or empty
     var state = g_form.getValue('state');
-	// state 2 = CounterOffer
-    if (state == 2 && (value == '' || parseFloat(value.split(';')[1]) == 0)) {
+	// state -4 = CounterOffer
+    if (state == -4 && (value == '' || parseFloat(value.split(';')[1]) == 0)) {
         g_form.addErrorMessage('Counter offer must be greater than zero.');
         var fieldControl = g_form.getControl('counter_offer_value'); // Gets the amount input
 
@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c912f4e847432210d140a464116d432d</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Counter Offer Value not zero validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
@@ -45,7 +45,7 @@
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name>sys_script_client_c912f4e847432210d140a464116d432d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:07:28</sys_updated_on>
+        <sys_updated_on>2025-07-29 18:21:26</sys_updated_on>
         <table>x_1809208_car_sale_car_sale</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

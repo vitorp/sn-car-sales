@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="buyer" label="Buyer" language="en" table="x_1809208_car_sale_car_sale">
+    <sys_documentation element="u_approval_group" label="Approval Group" language="en" table="var__m_sys_decision_multi_result_element_8bf31d2147476610d140a464116d43fa">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>buyer</element>
+            <element>u_approval_group</element>
             <help/>
             <hint/>
-            <label>Buyer</label>
+            <label>Approval Group</label>
             <language>en</language>
-            <name>x_1809208_car_sale_car_sale</name>
-            <plural>Buyers</plural>
+            <name>var__m_sys_decision_multi_result_element_8bf31d2147476610d140a464116d43fa</name>
+            <plural>Approval Group</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-29 18:56:35</sys_created_on>
+            <sys_created_on>2025-07-29 21:56:12</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Buyer</sys_name>
+            <sys_name>Approval Group</sys_name>
             <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
             <sys_policy/>
             <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
-            <sys_update_name>sys_documentation_x_1809208_car_sale_car_sale_buyer_en</sys_update_name>
+            <sys_update_name>sys_documentation_var__m_sys_decision_multi_result_element_8bf31d2147476610d140a464116d43fa_u_approval_group_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-29 18:56:35</sys_updated_on>
+            <sys_updated_on>2025-07-29 21:56:12</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

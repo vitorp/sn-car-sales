@@ -3,7 +3,7 @@
         <access>public</access>
         <active>true</active>
         <api_name>x_1809208_car_sale.CarAPIClient</api_name>
-        <caller_access>1</caller_access>
+        <caller_access/>
         <client_callable>true</client_callable>
         <description>Car API Wrapper. Gets car details by Name and Chassis.</description>
         <mobile_callable>true</mobile_callable>
@@ -56,13 +56,13 @@ CarAPIClient.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-26 19:16:36</sys_created_on>
         <sys_id>642f89e047072210d140a464116d436e</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>CarAPIClient</sys_name>
         <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
-        <sys_policy>read</sys_policy>
+        <sys_policy/>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name>sys_script_include_642f89e047072210d140a464116d436e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-28 14:32:03</sys_updated_on>
+        <sys_updated_on>2025-07-29 19:21:02</sys_updated_on>
     </sys_script_include>
 </record_update>

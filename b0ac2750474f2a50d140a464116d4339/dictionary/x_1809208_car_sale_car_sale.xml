@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="ba647f98474f2a50d140a464116d4355" extends="task" label="Car sale" max_length="40" name="x_1809208_car_sale_car_sale" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Car info" mandatory="true" max_length="400" name="car_info" read_only="true" type="string"/>
-        <element label="UF" max_length="5" name="uf" type="string"/>
+        <element label="UF" max_length="5" name="uf" read_only="true" type="string"/>
         <element label="Car Name" mandatory="true" max_length="100" name="car_name" type="string_full_utf8"/>
-        <element attributes="encode_utf8=false" label="Buyer" max_length="32" name="buyer" reference="sys_user" type="reference"/>
+        <element label="Buyer" max_length="32" name="buyer" reference="sys_user" type="reference"/>
         <element label="Counter Offer Value" max_length="20" name="counter_offer_value" type="currency"/>
         <element label="VIN" mandatory="true" max_length="17" name="vin" type="string"/>
-        <element label="Offer value" mandatory="true" max_length="20" name="offer_value" type="currency"/>
+        <element label="Offer value" max_length="20" name="offer_value" read_only="true" type="currency"/>
     </element>
 </database>

@@ -5,30 +5,30 @@
         <base_table>task</base_table>
         <calculation/>
         <calculation_override>false</calculation_override>
-        <default_value>-5</default_value>
+        <default_value>1</default_value>
         <default_value_override>true</default_value_override>
         <dependent/>
         <dependent_override>false</dependent_override>
         <display_override>false</display_override>
         <element>state</element>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <mandatory_override>true</mandatory_override>
         <name>x_1809208_car_sale_car_sale</name>
         <read_only>false</read_only>
-        <read_only_override>false</read_only_override>
+        <read_only_override>true</read_only_override>
         <reference_qual/>
         <reference_qual_override>false</reference_qual_override>
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-26 14:06:38</sys_created_on>
         <sys_id>ffbb48e847cf2a50d140a464116d4382</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>state</sys_name>
         <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name>sys_dictionary_override_ffbb48e847cf2a50d140a464116d4382</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 17:07:03</sys_updated_on>
+        <sys_updated_on>2025-07-29 18:43:16</sys_updated_on>
     </sys_dictionary_override>
 </record_update>

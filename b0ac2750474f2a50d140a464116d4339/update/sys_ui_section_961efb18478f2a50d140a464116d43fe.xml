@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 18:23:32</sys_created_on>
-            <sys_id>ba86c9a447c32210d140a464116d439c</sys_id>
+            <sys_created_on>2025-07-29 21:38:18</sys_created_on>
+            <sys_id>51ef01e947076610d140a464116d4389</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1809208_car_sale_car_sale" sys_domain="global" view="5a1efb18478f2a50d140a464116d43f9">961efb18478f2a50d140a464116d43fe</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 18:23:32</sys_updated_on>
+            <sys_updated_on>2025-07-29 21:38:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>offer_value</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 18:23:32</sys_created_on>
-            <sys_id>b686c9a447c32210d140a464116d439d</sys_id>
+            <sys_created_on>2025-07-29 21:38:18</sys_created_on>
+            <sys_id>59ef01e947076610d140a464116d4389</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1809208_car_sale_car_sale" sys_domain="global" view="5a1efb18478f2a50d140a464116d43f9">961efb18478f2a50d140a464116d43fe</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 18:23:32</sys_updated_on>
+            <sys_updated_on>2025-07-29 21:38:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,83 +32,97 @@
             <element>counter_offer_value</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 18:23:32</sys_created_on>
-            <sys_id>3e86c9a447c32210d140a464116d439d</sys_id>
+            <sys_created_on>2025-07-29 21:38:18</sys_created_on>
+            <sys_id>51ef01e947076610d140a464116d438a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1809208_car_sale_car_sale" sys_domain="global" view="5a1efb18478f2a50d140a464116d43f9">961efb18478f2a50d140a464116d43fe</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 18:23:32</sys_updated_on>
+            <sys_updated_on>2025-07-29 21:38:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>uf</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-29 21:38:18</sys_created_on>
+            <sys_id>59ef01e947076610d140a464116d438a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1809208_car_sale_car_sale" sys_domain="global" view="5a1efb18478f2a50d140a464116d43f9">961efb18478f2a50d140a464116d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-29 21:38:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 18:23:32</sys_created_on>
-            <sys_id>b286c9a447c32210d140a464116d439e</sys_id>
+            <sys_created_on>2025-07-29 21:38:18</sys_created_on>
+            <sys_id>51ef01e947076610d140a464116d438b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1809208_car_sale_car_sale" sys_domain="global" view="5a1efb18478f2a50d140a464116d43f9">961efb18478f2a50d140a464116d43fe</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 18:23:32</sys_updated_on>
+            <sys_updated_on>2025-07-29 21:38:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 18:23:32</sys_created_on>
-            <sys_id>3a86c9a447c32210d140a464116d439e</sys_id>
+            <sys_created_on>2025-07-29 21:38:18</sys_created_on>
+            <sys_id>59ef01e947076610d140a464116d438b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1809208_car_sale_car_sale" sys_domain="global" view="5a1efb18478f2a50d140a464116d43f9">961efb18478f2a50d140a464116d43fe</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 18:23:32</sys_updated_on>
+            <sys_updated_on>2025-07-29 21:38:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-29 21:38:18</sys_created_on>
+            <sys_id>51ef01e947076610d140a464116d438c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1809208_car_sale_car_sale" sys_domain="global" view="5a1efb18478f2a50d140a464116d43f9">961efb18478f2a50d140a464116d43fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-29 21:38:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>5</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 18:23:32</sys_created_on>
-            <sys_id>be86c9a447c32210d140a464116d439e</sys_id>
+            <sys_created_on>2025-07-29 21:38:18</sys_created_on>
+            <sys_id>59ef01e947076610d140a464116d438c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1809208_car_sale_car_sale" sys_domain="global" view="5a1efb18478f2a50d140a464116d43f9">961efb18478f2a50d140a464116d43fe</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 18:23:32</sys_updated_on>
+            <sys_updated_on>2025-07-29 21:38:18</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>car_info</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 18:23:32</sys_created_on>
-            <sys_id>3686c9a447c32210d140a464116d439f</sys_id>
+            <sys_created_on>2025-07-29 21:38:18</sys_created_on>
+            <sys_id>51ef01e947076610d140a464116d438d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1809208_car_sale_car_sale" sys_domain="global" view="5a1efb18478f2a50d140a464116d43f9">961efb18478f2a50d140a464116d43fe</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 18:23:32</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 18:23:32</sys_created_on>
-            <sys_id>ba86c9a447c32210d140a464116d439f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1809208_car_sale_car_sale" sys_domain="global" view="5a1efb18478f2a50d140a464116d43f9">961efb18478f2a50d140a464116d43fe</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 18:23:32</sys_updated_on>
+            <sys_updated_on>2025-07-29 21:38:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

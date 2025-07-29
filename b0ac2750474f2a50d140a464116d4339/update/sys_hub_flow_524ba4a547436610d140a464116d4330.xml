@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=5459000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>car_sale_creation</internal_name>
+        <label_cache>[{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Car sale Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"sys_created_by","usedInstances":{"bdf3fcb9-e4f2-4254-8408-0eb27e0a4f9e":["conditions"]}},{"name":"609dd11f-479d-4480-b81f-49adb0744128.record.sys_created_by","label":"1 - Update Record➛Car sale Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"sys_created_by","usedInstances":{"bdf3fcb9-e4f2-4254-8408-0eb27e0a4f9e":["conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"609dd11f-479d-4480-b81f-49adb0744128":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>9c6ca86947436610d140a464116d43c7</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Car sale creation</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>a46ca86947436610d140a464116d43e6</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 18:58:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>524ba4a547436610d140a464116d4330</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Car sale creation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_hub_flow_524ba4a547436610d140a464116d4330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 21:32:28</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=524ba4a547436610d140a464116d4330"/>
+    <sys_variable_value action="delete_multiple" query="document_key=524ba4a547436610d140a464116d4330"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1809208_car_sale_car_sale">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:03:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a46ca86947436610d140a464116d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 19:03:10</sys_updated_on>
+        <table>x_1809208_car_sale_car_sale</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>524ba4a547436610d140a464116d4330</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 20:29:22</sys_created_on>
+        <sys_id>5310456547c36610d140a464116d4345</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 21:32:28</sys_updated_on>
+        <trigger display_value="">a46ca86947436610d140a464116d43e6</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=524ba4a547436610d140a464116d4330^sys_idNOT IN5310456547c36610d140a464116d4345"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=524ba4a547436610d140a464116d4330"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=524ba4a547436610d140a464116d4330^sys_idNOT IN124ba4a547436610d140a464116d4331"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>524ba4a547436610d140a464116d4330</id>
+        <name>Car sale creation</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 18:58:22</sys_created_on>
+        <sys_id>124ba4a547436610d140a464116d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 18:58:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=124ba4a547436610d140a464116d4331"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=524ba4a547436610d140a464116d4330^sys_idNOT IN069be0a547436610d140a464116d4345,0a9be0a547436610d140a464116d4349"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Car sale creation">524ba4a547436610d140a464116d4330</model>
+        <model_id>524ba4a547436610d140a464116d4330</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_524ba4a547436610d140a464116d4330</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 18:59:43</sys_created_on>
+        <sys_id>069be0a547436610d140a464116d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 18:59:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=069be0a547436610d140a464116d4345"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Car sale creation">524ba4a547436610d140a464116d4330</model>
+        <model_id>524ba4a547436610d140a464116d4330</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_524ba4a547436610d140a464116d4330</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 18:59:43</sys_created_on>
+        <sys_id>0a9be0a547436610d140a464116d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 18:59:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0a9be0a547436610d140a464116d4349"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=524ba4a547436610d140a464116d4330"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=524ba4a547436610d140a464116d4330"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=524ba4a547436610d140a464116d4330^sys_idNOT IN9e9ba82947436610d140a464116d438f"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Car sale creation">524ba4a547436610d140a464116d4330</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 18:59:43</sys_created_on>
+        <sys_id>9e9ba82947436610d140a464116d438f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 19:03:06</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYXW/iOBT9K1GediRWygcU6NsMMNpKs1MtZXYfqm7kxDZEa2w2cdIyo/73vc4XIR8USjpLX6rGdu49Pjn3XJv7HzpDLmH6tb5ALiN6T/e5JAFHbLHdEBiWatjhaK3m1ohjJEWw1a9lEJGeTgOxXpD1hiEJiyliIQyKAJNAvzZ7eoxYRO624Q2GSPB+EiaLqWfT8PzkmCNjbBkjx0OBEyJImP8Dq7AfQvztn9niCQq0bMZb+QwHhOvX9w89fYMCCC9V6h+VKV/l96iHxhYxPNu0LcswrFHfdK9s17SwjYhhQMAqFxW8soGS3WbJkyQcE1zwUGMrIAjfcrYtVqyA7JSZNXoK/e8QfWSodZQAdo+kc8Wjk1GRDnsr4XvkdiN9wdORFGc6KVi05l9T/IpEQlHEZE4ijEQhxCMbBVmByBDRu5V4nOcJP/s82V02yYSHWPGEpAx8N5IkVIRTnwH1TspNKKIgQT+fTW7nU+evj4vJb7O5M5/dLeY3k8Vsqj8n+3L+jVTEFGGGxUm381x8+c8+YeoD8mjtApqeHnqBv5EfPenHueqeezslTwTHfsJKTc1ePhXuqznf/SE5G0aroL1SxlzUf8/+qIs3HTxNt1dXCGGCWnTr0pJuyztvgCYbSCjv7pCCs5FjJNw3jP9JxJkpvVbDa4EJm+7C6TC5XIKqfb6JpGLrEXEZOlI4CGOnxKNaCpheEnW6t7qyX9Z0EHEI4RRfqK7shMiC0S9+CBu4h7rM2UpCwjz9koWcR1wT8Cnhj+ZFAZAltdzp6M0aLTOO6R1hxJMlWdBvYfnpdz8Mfb4soS6SJqzUchbpQF5avqU0d3hm8ocuy7pOelwhs1LeJ9e2aVLqEmoZQ1XZpmG71DSGxgBRbBuGZ5Vquw6mFaWsSOJNavy0Cg8TMbIjpFelOANvlKvhKBnF+xrMSVASyYxk0g00syNoloJWMUT7JEcsZJkOT/fVeWhrHZ8GEI4RvIGPNUa14AgHpEw8ghm/wv1c5P2zDETEcdWOVEzN59puhfZLxt+HDp2QioAcBrC/4pI8cEd7LlzEtx24n01Nd0z6xADTs8Hv3MF47HrIonR4NSSWWXG/HYxGbO/C9V5QW9wk1zYHbBRO3KS3E7zvDIA1HzwZ4PkOmAmz0f/SuffhdI8rwh2AGjhMeVnN8JbMxySf67baa6njXX2fW/F0NPYG5nDoDeEeAxVP+8RFZt8aoPHwyh4NKhVfg3IIpmxg5qfcbsJtmABpcYNv6dRlXdffUrYhkVK1o9O7NIdzbPIOSpOUOqX6LFpiKiLQvgr+681unXZHoAEmV9yu2vUxKNSH1d4WhivkqnZegNSfYHwvtTpntrBycVeqikji/b2efaUi/dFgTO1mi6HjJovZgWmHefHHiyMrJG6ttaZzxrGCjxvrpvVg8AoJV2RSPjEcONJ0RYrZOSnW25Fin32Mymux9R75GrDvqIUl54pz+pjKSRxBy+Y9FRpMaJBE86mW/bZIsOZuNbkiQCmD8zIk1FT2c1273EXqUAoF/1wg6Qm81s1gWMsOUJfXqCpS6PYGTPAQDQZ2y3l4XL0BNwF6Ae/Ft62TqyJuKrKDveu0uNWYjd2rJNl9RRzZlzrddXNzOm/Xje3ppV2f33gO3d8bUFxoS3n4Dxn7pkZYHwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=524ba4a547436610d140a464116d4330^sys_idNOT IN9a9ba82947436610d140a464116d4391"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Car sale creation">524ba4a547436610d140a464116d4330</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 18:59:43</sys_created_on>
+        <sys_id>9a9ba82947436610d140a464116d4391</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_updated_by>allan.schwantd</sys_updated_by>
+        <sys_updated_on>2025-07-29 20:44:01</sys_updated_on>
+        <ui_id>609dd11f-479d-4480-b81f-49adb0744128</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTWvjMBD9K0FnE6TYyaa5lYTCQreFdumlKWYsKYlA/lhJTpsN+e87lmU3tKWbQg9bNqdovvze6M3ofk+UIDOSSEHZGZvwmMXxiNLRNGHZJM7YSMQgJSMRKSCXGGkkL43A8xZ03Rj2+7mR4KRI2ZDXxsjCHQ7oF8pWGnZ3IQwtfKO0QD+Z3T9EpAKDFZ00ZLZ/4ToVkoZMagy96TC9xOh2VXMWJa9zxJWqzngZMhfBM/i+QA8mNXAYjYh8crIQEoGsQFsZkRwKAa40OzJzpkYDkhbXhd71ERtVuJZoDk9W/cYvJ7SJW0lkxkMT+mMaGtSaVwtwcIuVuatN369ScWnbngi5glq7+bGtDbiunCqLNsVBprvsUtd5cdV2hPQFju6jtghCVg3PBnlLa3W7KR9vOpAXqvAtCRR1yUH3J3DOqKx2DZw9kVr6HudQVapYp5Upt8onI5R8uNZ4GK50+YjftGpdDIE3uIfYVRheoH3hzXdgVEPiB5bB5ENE7M7ONVj7TAV7mP6qGyQtsUAh9V3wLUi9EppkblTlzvFTWxmAH6Ig+mz8nsL42bOgjmo+C/8pZVN6NqLTlINJLWBE9+e1/OdgBsHzsTE4AWQ3Bj/95b8NOkzCK9vlce7gqnWEORh/2hxMv9IcBBpffhD+Jn86enfBHinJK94eSR9BIELPcm3KulrWlMZiv+xUvySzZS95i5IZtGEkWrY1fMCYZXLMxyL5xjM5YlSwhEIySRibiCSejn04ksa1fWL8G+/Ovwz1Y5vghPvqNsGFklrYNy6wWwMyR+5Opu2FvlgFwTm4C87+Wfy0fcAm1P++0Fb4X17HzoigD4eHP7qV3uogCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9a9ba82947436610d140a464116d4391"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=524ba4a547436610d140a464116d4330"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=524ba4a547436610d140a464116d4330"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=524ba4a547436610d140a464116d4330"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=524ba4a547436610d140a464116d4330"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_524ba4a547436610d140a464116d4330</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 18:59:43</sys_created_on>
+        <sys_id>0a9be0a547436610d140a464116d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 18:59:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_524ba4a547436610d140a464116d4330</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 18:59:43</sys_created_on>
+        <sys_id>869ba82947436610d140a464116d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 18:59:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_524ba4a547436610d140a464116d4330"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_524ba4a547436610d140a464116d4330"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>car_sale_creation</internal_name>
+        <label_cache>[{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Car sale Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"sys_created_by","usedInstances":{"bdf3fcb9-e4f2-4254-8408-0eb27e0a4f9e":["conditions"]}},{"name":"609dd11f-479d-4480-b81f-49adb0744128.record.sys_created_by","label":"1 - Update Record➛Car sale Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1809208_car_sale_car_sale","column_name":"sys_created_by","usedInstances":{"bdf3fcb9-e4f2-4254-8408-0eb27e0a4f9e":["conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Car sale Record","reference":"x_1809208_car_sale_car_sale","reference_display":"Car sale","type":"reference","base_type":"reference","usedInstances":{"609dd11f-479d-4480-b81f-49adb0744128":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Car sale creation</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Car sale creation">524ba4a547436610d140a464116d4330</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:03:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c6ca86947436610d140a464116d43c7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 20:29:22</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9c6ca86947436610d140a464116d43c7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9c6ca86947436610d140a464116d43c7"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9c6ca86947436610d140a464116d43c7"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9c6ca86947436610d140a464116d43c7^sys_idNOT IN9c6ca86947436610d140a464116d43c8"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9c6ca86947436610d140a464116d43c7</id>
+        <name>Car sale creation</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:03:09</sys_created_on>
+        <sys_id>9c6ca86947436610d140a464116d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 19:03:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9c6ca86947436610d140a464116d43c8"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9c6ca86947436610d140a464116d43c7^sys_idNOT IN5c6ca86947436610d140a464116d43c9,e46ca86947436610d140a464116d43d4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Car sale creation">9c6ca86947436610d140a464116d43c7</model>
+        <model_id>9c6ca86947436610d140a464116d43c7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_9c6ca86947436610d140a464116d43c7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:03:09</sys_created_on>
+        <sys_id>5c6ca86947436610d140a464116d43c9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 20:29:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5c6ca86947436610d140a464116d43c9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Car sale creation">9c6ca86947436610d140a464116d43c7</model>
+        <model_id>9c6ca86947436610d140a464116d43c7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_9c6ca86947436610d140a464116d43c7</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:03:09</sys_created_on>
+        <sys_id>e46ca86947436610d140a464116d43d4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 20:29:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e46ca86947436610d140a464116d43d4"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9c6ca86947436610d140a464116d43c7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9c6ca86947436610d140a464116d43c7"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=9c6ca86947436610d140a464116d43c7^sys_idNOT INa46ca86947436610d140a464116d43e0"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Car sale creation">9c6ca86947436610d140a464116d43c7</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:03:09</sys_created_on>
+        <sys_id>a46ca86947436610d140a464116d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 19:03:09</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYXW/iOBT9K1GediRWygcU6NsMMNpKs1MtZXYfqm7kxDZEa2w2cdIyo/73vc4XIR8USjpLX6rGdu49Pjn3XJv7HzpDLmH6tb5ALiN6T/e5JAFHbLHdEBiWatjhaK3m1ohjJEWw1a9lEJGeTgOxXpD1hiEJiyliIQyKAJNAvzZ7eoxYRO624Q2GSPB+EiaLqWfT8PzkmCNjbBkjx0OBEyJImP8Dq7AfQvztn9niCQq0bMZb+QwHhOvX9w89fYMCCC9V6h+VKV/l96iHxhYxPNu0LcswrFHfdK9s17SwjYhhQMAqFxW8soGS3WbJkyQcE1zwUGMrIAjfcrYtVqyA7JSZNXoK/e8QfWSodZQAdo+kc8Wjk1GRDnsr4XvkdiN9wdORFGc6KVi05l9T/IpEQlHEZE4ijEQhxCMbBVmByBDRu5V4nOcJP/s82V02yYSHWPGEpAx8N5IkVIRTnwH1TspNKKIgQT+fTW7nU+evj4vJb7O5M5/dLeY3k8Vsqj8n+3L+jVTEFGGGxUm381x8+c8+YeoD8mjtApqeHnqBv5EfPenHueqeezslTwTHfsJKTc1ePhXuqznf/SE5G0aroL1SxlzUf8/+qIs3HTxNt1dXCGGCWnTr0pJuyztvgCYbSCjv7pCCs5FjJNw3jP9JxJkpvVbDa4EJm+7C6TC5XIKqfb6JpGLrEXEZOlI4CGOnxKNaCpheEnW6t7qyX9Z0EHEI4RRfqK7shMiC0S9+CBu4h7rM2UpCwjz9koWcR1wT8Cnhj+ZFAZAltdzp6M0aLTOO6R1hxJMlWdBvYfnpdz8Mfb4soS6SJqzUchbpQF5avqU0d3hm8ocuy7pOelwhs1LeJ9e2aVLqEmoZQ1XZpmG71DSGxgBRbBuGZ5Vquw6mFaWsSOJNavy0Cg8TMbIjpFelOANvlKvhKBnF+xrMSVASyYxk0g00syNoloJWMUT7JEcsZJkOT/fVeWhrHZ8GEI4RvIGPNUa14AgHpEw8ghm/wv1c5P2zDETEcdWOVEzN59puhfZLxt+HDp2QioAcBrC/4pI8cEd7LlzEtx24n01Nd0z6xADTs8Hv3MF47HrIonR4NSSWWXG/HYxGbO/C9V5QW9wk1zYHbBRO3KS3E7zvDIA1HzwZ4PkOmAmz0f/SuffhdI8rwh2AGjhMeVnN8JbMxySf67baa6njXX2fW/F0NPYG5nDoDeEeAxVP+8RFZt8aoPHwyh4NKhVfg3IIpmxg5qfcbsJtmABpcYNv6dRlXdffUrYhkVK1o9O7NIdzbPIOSpOUOqX6LFpiKiLQvgr+681unXZHoAEmV9yu2vUxKNSH1d4WhivkqnZegNSfYHwvtTpntrBycVeqikji/b2efaUi/dFgTO1mi6HjJovZgWmHefHHiyMrJG6ttaZzxrGCjxvrpvVg8AoJV2RSPjEcONJ0RYrZOSnW25Fin32Mymux9R75GrDvqIUl54pz+pjKSRxBy+Y9FRpMaJBE86mW/bZIsOZuNbkiQCmD8zIk1FT2c1273EXqUAoF/1wg6Qm81s1gWMsOUJfXqCpS6PYGTPAQDQZ2y3l4XL0BNwF6Ae/Ft62TqyJuKrKDveu0uNWYjd2rJNl9RRzZlzrddXNzOm/Xje3ppV2f33gO3d8bUFxoS3n4Dxn7pkZYHwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=9c6ca86947436610d140a464116d43c7^sys_idNOT IN206ca86947436610d140a464116d43e0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Car sale creation">9c6ca86947436610d140a464116d43c7</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:03:09</sys_created_on>
+        <sys_id>206ca86947436610d140a464116d43e0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 20:29:22</sys_updated_on>
+        <ui_id>609dd11f-479d-4480-b81f-49adb0744128</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTWvjMBD9K0FnE6TYyaa5lYTCQreFdumlKWYsKYlA/lhJTpsN+e87lmU3tKWbQg9bNqdovvze6M3ofk+UIDOSSEHZGZvwmMXxiNLRNGHZJM7YSMQgJSMRKSCXGGkkL43A8xZ03Rj2+7mR4KRI2ZDXxsjCHQ7oF8pWGnZ3IQwtfKO0QD+Z3T9EpAKDFZ00ZLZ/4ToVkoZMagy96TC9xOh2VXMWJa9zxJWqzngZMhfBM/i+QA8mNXAYjYh8crIQEoGsQFsZkRwKAa40OzJzpkYDkhbXhd71ERtVuJZoDk9W/cYvJ7SJW0lkxkMT+mMaGtSaVwtwcIuVuatN369ScWnbngi5glq7+bGtDbiunCqLNsVBprvsUtd5cdV2hPQFju6jtghCVg3PBnlLa3W7KR9vOpAXqvAtCRR1yUH3J3DOqKx2DZw9kVr6HudQVapYp5Upt8onI5R8uNZ4GK50+YjftGpdDIE3uIfYVRheoH3hzXdgVEPiB5bB5ENE7M7ONVj7TAV7mP6qGyQtsUAh9V3wLUi9EppkblTlzvFTWxmAH6Ig+mz8nsL42bOgjmo+C/8pZVN6NqLTlINJLWBE9+e1/OdgBsHzsTE4AWQ3Bj/95b8NOkzCK9vlce7gqnWEORh/2hxMv9IcBBpffhD+Jn86enfBHinJK94eSR9BIELPcm3KulrWlMZiv+xUvySzZS95i5IZtGEkWrY1fMCYZXLMxyL5xjM5YlSwhEIySRibiCSejn04ksa1fWL8G+/Ovwz1Y5vghPvqNsGFklrYNy6wWwMyR+5Opu2FvlgFwTm4C87+Wfy0fcAm1P++0Fb4X17HzoigD4eHP7qV3uogCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=206ca86947436610d140a464116d43e0"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=9c6ca86947436610d140a464116d43c7"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=9c6ca86947436610d140a464116d43c7"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9c6ca86947436610d140a464116d43c7"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9c6ca86947436610d140a464116d43c7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9c6ca86947436610d140a464116d43c7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:03:09</sys_created_on>
+        <sys_id>2c6ca86947436610d140a464116d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 19:03:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9c6ca86947436610d140a464116d43c7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:03:09</sys_created_on>
+        <sys_id>6c6ca86947436610d140a464116d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 19:03:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9c6ca86947436610d140a464116d43c7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9c6ca86947436610d140a464116d43c7"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>524ba4a547436610d140a464116d4330</sys_id>
+        <latest_snapshot>9c6ca86947436610d140a464116d43c7</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch5-06-11-2025_06-25-2025_1836.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=524ba4a547436610d140a464116d4330^sys_idNOT IN246ca86947436610d140a464116d43e8"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"246ca86947436610d140a464116d43e8","name":"plan","plan_signature":null}}</plan>
+        <plan_id>524ba4a547436610d140a464116d4330</plan_id>
+        <snapshot>0e730d6947c36610d140a464116d435b</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:03:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>246ca86947436610d140a464116d43e8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 19:56:54</sys_updated_on>
+        <trigger display_value="">a46ca86947436610d140a464116d43e6</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=524ba4a547436610d140a464116d4330"/>
+</record_update>

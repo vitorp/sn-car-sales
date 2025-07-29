@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1809208_car_sale_car_sale</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Insert Car Sale</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var creatorUserName = current.sys_created_by;
+
+    // Lookup user sys_id from sys_user table
+    var userGR = new GlideRecord('sys_user');
+    userGR.addQuery('user_name', creatorUserName);
+    userGR.query();
+    if (userGR.next()) {
+        current.buyer = userGR.sys_id;
+    } else {
+        current.state = 7;
+		return;
+    }
+	var api = new CarAPIClient();
+	var result = api.getCar(current.car_name, current.vin);
+	if(result.status == 200){
+		var resultArray = JSON.parse(result.body).result;
+		if (resultArray.length > 0){
+			var carDetails = resultArray[0];
+			gs.info("Car Uf: " + carDetails.u_uf);
+			current.uf = carDetails.u_uf;
+			current.car_info = buildCarInfoMessage(resultArray);
+		}
+	} else {
+		current.state = 7;
+		return;
+	}
+
+	function buildCarInfoMessage(resultArray) {
+		if (resultArray.length > 0) {
+			var carDetails = resultArray[0];
+			var carInfoLines = [
+				'Dados do carro:',
+				'',
+				'Nome do carro: ' + carDetails.u_car_name,
+				'Modelo: ' + carDetails.u_modelo,
+				'Ano: ' + carDetails.u_ano_modelo,
+				'Ano de fabricação: ' + carDetails.u_ano_fabricacao,
+				'Marca: ' + carDetails.u_marca,
+				'Valor atual da tabela FIPE: R$ ' + carDetails.u_valor_tabela_fipe
+			];
+			return carInfoLines.join('\n');
+		} else {
+			return "Carro não encontrado.";
+		}
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:59:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9b870e947836610d140a464116d4320</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Insert Car Sale</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_script_e9b870e947836610d140a464116d4320</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 21:12:06</sys_updated_on>
+        <template/>
+        <when>async_always</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e9b870e947836610d140a464116d4320"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>e9b870e947836610d140a464116d4320</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 20:01:12</sys_created_on>
+        <sys_id>36a9fca947836610d140a464116d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 20:01:12</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:12:56</sys_created_on>
+        <sys_id>0a8d64e947436610d140a464116d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CarAPIClient.user</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_security_acl display_value="CarAPIClient">dcb2d12847072210d140a464116d4323</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0a8d64e947436610d140a464116d4371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 19:12:56</sys_updated_on>
+        <sys_user_role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car sale">b0ac2750474f2a50d140a464116d4339</application>
+        <file_path/>
+        <instance_id>03f118bcfb74ee541feef633beefdcd4</instance_id>
+        <instance_name>dev318835</instance_name>
+        <name>sys_security_acl_role_0a8d64e947436610d140a464116d4371</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-29 19:12:56</sys_created_on><sys_id>0a8d64e947436610d140a464116d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CarAPIClient.user</sys_name><sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package><sys_policy/><sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope><sys_security_acl display_value="CarAPIClient">dcb2d12847072210d140a464116d4323</sys_security_acl><sys_update_name>sys_security_acl_role_0a8d64e947436610d140a464116d4371</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-29 19:12:56</sys_updated_on><sys_user_role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-300430128</payload_hash>
+        <record_name>CarAPIClient.user</record_name>
+        <reverted_from/>
+        <source>d13f1c6047032210d140a464116d4338</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:12:56</sys_created_on>
+        <sys_id>b79e2c2d47436610d140a464116d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198579a24cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 19:12:56</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>bb9e2c2d97436610a7169524891c4be4</update_guid>
+        <update_guid_history>bb9e2c2d97436610a7169524891c4be4:-300430128</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CarAPIClient.user">8402f86147836610d140a464116d43ad</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 19:27:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>10b1c41a54704d8b85bd8022da88d9b1</sys_id>
+        <sys_metadata>0a8d64e947436610d140a464116d4371</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CarAPIClient.user</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_parent display_value="CarAPIClient">dcb2d12847072210d140a464116d4323</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_scope_delete display_value="">01a80133342b47d4817de48f90252f41</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_0a8d64e947436610d140a464116d4371</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_0a8d64e947436610d140a464116d4371">b79e2c2d47436610d140a464116d43e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 19:27:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
