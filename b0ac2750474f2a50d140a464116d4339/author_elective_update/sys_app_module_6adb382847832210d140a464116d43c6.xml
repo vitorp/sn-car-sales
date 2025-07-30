@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Car sale">97847b90474f2a50d140a464116d437e</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1809208_car_sale_car_sale">active=true^assigned_toISEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>Track your counter offers</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>My Counter Offers</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1809208_car_sale_car_sale</name>
+        <order>302</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1809208_car_sale.seller</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-26 17:39:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6adb382847832210d140a464116d43c6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Unassigned sales</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_update_name>sys_app_module_6adb382847832210d140a464116d43c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 18:14:24</sys_updated_on>
+        <timeline_page/>
+        <title>Unassigned sales</title>
+        <uncancelable>false</uncancelable>
+        <view_name>Seller</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car sale">b0ac2750474f2a50d140a464116d4339</application>
+        <file_path/>
+        <instance_id>03f118bcfb74ee541feef633beefdcd4</instance_id>
+        <instance_name>dev318835</instance_name>
+        <name>sys_app_module_6adb382847832210d140a464116d43c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Car sale">97847b90474f2a50d140a464116d437e</application><assessment/><device_type/><filter table="x_1809208_car_sale_car_sale">active=true^assigned_toISEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint>Track your counter offers</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>My Counter Offers</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1809208_car_sale_car_sale</name><order>302</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1809208_car_sale.seller</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-26 17:39:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6adb382847832210d140a464116d43c6</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Unassigned sales</sys_name><sys_overrides/><sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package><sys_policy/><sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope><sys_update_name>sys_app_module_6adb382847832210d140a464116d43c6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-29 18:14:24</sys_updated_on><timeline_page/><title>Unassigned sales</title><uncancelable>false</uncancelable><view_name>Seller</view_name><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1464851804</payload_hash>
+        <record_name>Unassigned sales</record_name>
+        <reverted_from/>
+        <source>d13f1c6047032210d140a464116d4338</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-29 18:14:24</sys_created_on>
+        <sys_id>d631242947036610d140a464116d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19857648e1c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-29 18:14:24</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5e31242945036610d0b3dc566f11a0a6</update_guid>
+        <update_guid_history>5e31242945036610d0b3dc566f11a0a6:1464851804,cbfffc6cfa832210f1295bb91e997e39:153626715,d98cb468f1832210b5ce518eaa3fe31b:803981139,207c346873832210a4eed69e149a8d67:-771255000</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Unassigned sales">3414756947c76610d140a464116d43de</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-30 00:16:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>554b90b797a149d085e30440f1429a10</sys_id>
+        <sys_metadata>6adb382847832210d140a464116d43c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unassigned sales</sys_name>
+        <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
+        <sys_scope_delete display_value="">01a80133342b47d4817de48f90252f41</sys_scope_delete>
+        <sys_update_name>sys_app_module_6adb382847832210d140a464116d43c6</sys_update_name>
+        <sys_update_version display_value="sys_app_module_6adb382847832210d140a464116d43c6">d631242947036610d140a464116d43a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-30 00:16:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -42,6 +42,35 @@ CarAPIClient.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
             };
         }
     },
+	getUser: function(userLink){
+		try {
+            var r = new sn_ws.RESTMessageV2('detran_integration', 'getUser');
+			r.setEndpoint(userLink);
+			gs.info("API User Endpoint: " + userLink);
+            // Execute REST call (synchronous)
+            var response = r.execute();
+
+            var httpStatus = response.getStatusCode();
+            var responseBody = JSON.parse(response.getBody());
+
+            // Log and return response
+            gs.info("API User Response Status: " + httpStatus);
+            gs.info("API User Response Body: " + responseBody);
+
+            return {
+                status: httpStatus,
+                body: responseBody
+            };
+
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.error("REST call failed: " + message);
+            return {
+                status: 'error',
+                message: message
+            };
+        }
+	},
 	// Client-side AJAX call
 	getCarAJAX: function() {
 		var carName = this.getParameter("sysparm_car_name");
@@ -56,13 +85,13 @@ CarAPIClient.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-26 19:16:36</sys_created_on>
         <sys_id>642f89e047072210d140a464116d436e</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>CarAPIClient</sys_name>
         <sys_package display_value="Car sale" source="x_1809208_car_sale">b0ac2750474f2a50d140a464116d4339</sys_package>
         <sys_policy/>
         <sys_scope display_value="Car sale">b0ac2750474f2a50d140a464116d4339</sys_scope>
         <sys_update_name>sys_script_include_642f89e047072210d140a464116d436e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-29 19:21:02</sys_updated_on>
+        <sys_updated_on>2025-07-29 23:32:53</sys_updated_on>
     </sys_script_include>
 </record_update>
